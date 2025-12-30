@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1280, height=720, initial-scale=1.0">
+    <title>ArdiA Health Labs - Closing</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            width: 1280px;
+            height: 720px;
+            background-color: #121212;
+            color: #E8E8E8;
+            font-family: 'Inter', sans-serif;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        
+        /* Background Pattern */
+        .bg-pattern {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                radial-gradient(circle at 50% 50%, rgba(139, 175, 208, 0.05) 0%, transparent 70%);
+            z-index: 0;
+        }
+
+        .content {
+            z-index: 1;
+            text-align: center;
+        }
+
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 64px;
+            font-weight: 700;
+            color: #E8E8E8;
+            margin: 0 0 24px 0;
+        }
+
+        .tagline {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 32px;
+            font-weight: 500;
+            color: #8BAFD0;
+            margin-bottom: 64px;
+            font-style: italic;
+        }
+
+        .contact-card {
+            background: #1E1E1E;
+            padding: 48px 64px;
+            border-radius: 16px;
+            border: 1px solid #2D2D2D;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            align-items: center;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            font-size: 24px;
+            color: #B3B3B3;
+        }
+
+        .contact-item i {
+            color: #8BAFD0;
+        }
+
+        .name {
+            font-size: 32px;
+            font-weight: 700;
+            color: #E8E8E8;
+            margin-bottom: 8px;
+        }
+        
+        .role {
+            font-size: 20px;
+            color: #8BAFD0;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 16px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="bg-pattern"></div>
+    
+    <div class="content">
+        <h2>Invest in the Future</h2>
+        <div class="tagline">"Let's solve healthcare together"</div>
+        
+        <div class="contact-card">
+            <div>
+                <div class="name">Ram Vadlamudi</div>
+                <div class="role">Founder & CEO</div>
+            </div>
+            
+            <div class="contact-item">
+                <i data-lucide="mail"></i>
+                ram.vadlamudi@ardiahealthlabs.com
+            </div>
+            <div class="contact-item">
+                <i data-lucide="phone"></i>
+                +1 (469) 679-3334
+            </div>
+            <div class="contact-item">
+                <i data-lucide="globe"></i>
+                ardiahealthlabs.com
+            </div>
+        </div>
+    </div>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

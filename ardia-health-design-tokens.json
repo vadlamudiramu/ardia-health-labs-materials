@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "name": "ArdiA Health Dark Mode",
+    "viewport": "1280x720",
+    "version": "1.0"
+  },
+  "colors": {
+    "background": {
+      "primary": "#121212",
+      "secondary": "#1E1E1E",
+      "tertiary": "#2D2D2D",
+      "overlay": "rgba(0, 0, 0, 0.7)"
+    },
+    "text": {
+      "primary": "#E8E8E8",
+      "secondary": "#B3B3B3",
+      "tertiary": "#8C8C8C",
+      "inverse": "#121212"
+    },
+    "accent": {
+      "primary": "#8BAFD0",
+      "secondary": "#5374AC",
+      "tertiary": "#E89856",
+      "success": "#66BB6A",
+      "error": "#EF5350"
+    },
+    "border": {
+      "subtle": "#2D2D2D",
+      "default": "#3D3D3D",
+      "focus": "#8BAFD0"
+    },
+    "charts": [
+      "#8BAFD0",
+      "#5374AC",
+      "#E89856",
+      "#66BB6A",
+      "#9B7EBD",
+      "#76B5B5"
+    ]
+  },
+  "typography": {
+    "fontFamily": {
+      "headings": "'Montserrat', 'Futura', sans-serif",
+      "body": "'Inter', 'Roboto', sans-serif",
+      "monospace": "'JetBrains Mono', monospace"
+    },
+    "size": {
+      "display": "96px",
+      "h1": "72px",
+      "h2": "54px",
+      "h3": "32px",
+      "h4": "28px",
+      "body": "24px",
+      "small": "20px",
+      "caption": "16px"
+    },
+    "weight": {
+      "regular": 400,
+      "medium": 500,
+      "bold": 600,
+      "extraBold": 700
+    },
+    "lineHeight": {
+      "headings": 1.2,
+      "body": 1.75
+    }
+  },
+  "spacing": {
+    "xs": "4px",
+    "sm": "8px",
+    "md": "16px",
+    "lg": "24px",
+    "xl": "32px",
+    "2xl": "48px",
+    "3xl": "64px",
+    "4xl": "96px",
+    "layout": {
+      "marginX": "96px",
+      "marginY": "64px",
+      "gutter": "24px"
+    }
+  },
+  "borderRadius": {
+    "sm": "4px",
+    "md": "8px",
+    "lg": "12px",
+    "xl": "16px",
+    "full": "9999px"
+  },
+  "boxShadow": {
+    "subtle": "0 1px 3px rgba(0,0,0,0.5)",
+    "card": "0 4px 12px rgba(0,0,0,0.7)",
+    "elevated": "0 8px 24px rgba(0,0,0,0.8)"
+  },
+  "animation": {
+    "duration": {
+      "fast": "200ms",
+      "normal": "400ms",
+      "slow": "600ms"
+    },
+    "easing": {
+      "default": "cubic-bezier(0.4, 0.0, 0.2, 1)",
+      "bounce": "cubic-bezier(0.175, 0.885, 0.32, 1.275)"
+    }
+  }
+}

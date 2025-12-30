@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1280, height=720, initial-scale=1.0">
+    <title>ArdiA Health Labs - Product</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 96px;
+            width: 1280px;
+            height: 720px;
+            box-sizing: border-box;
+            background-color: #121212;
+            color: #E8E8E8;
+            font-family: 'Inter', sans-serif;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+        }
+
+        .container {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            gap: 64px;
+        }
+
+        .text-col {
+            flex: 0 0 40%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .visual-col {
+            flex: 1;
+            background-color: #1E1E1E;
+            border-radius: 16px;
+            border: 1px solid #3D3D3D;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 54px;
+            font-weight: 700;
+            color: #E8E8E8;
+            margin: 0 0 32px 0;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            font-size: 22px;
+            line-height: 1.6;
+            margin-bottom: 24px;
+            padding-left: 20px;
+            border-left: 3px solid #8BAFD0;
+            color: #B3B3B3;
+        }
+
+        li strong {
+            color: #E8E8E8;
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        /* Simulated Dashboard UI */
+        .dashboard-mockup {
+            width: 90%;
+            height: 80%;
+            background: #2D2D2D;
+            border-radius: 8px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        
+        .mock-header {
+            height: 40px;
+            background: #3D3D3D;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+
+        .mock-row {
+            height: 60px;
+            background: #1E1E1E;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            padding: 0 16px;
+            justify-content: space-between;
+            border-left: 4px solid #4CAF50; /* Stable */
+        }
+        
+        .mock-row.critical {
+            border-left: 4px solid #EF5350; /* Critical */
+            background: rgba(239, 83, 80, 0.1);
+        }
+
+        .mock-row.attention {
+            border-left: 4px solid #FFC107; /* Attention */
+        }
+
+        .row-text {
+            width: 40%;
+            height: 12px;
+            background: #3D3D3D;
+            border-radius: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text-col">
+            <h2>Product Overview</h2>
+            <ul>
+                <li>
+                    <strong>20+ Chronic Conditions</strong>
+                    Asthma, COPD, CKD, CHF, Diabetes, etc.
+                </li>
+                <li>
+                    <strong>Provider Dashboard</strong>
+                    Prioritized Triage: Critical &rarr; Attention &rarr; Stable
+                </li>
+                <li>
+                    <strong>Voice AI & Biomarkers</strong>
+                    Passive monitoring via natural speech
+                </li>
+                <li>
+                    <strong>Auto-911 Integration</strong>
+                    Emergency packet generation & dispatch
+                </li>
+            </ul>
+        </div>
+        
+        <div class="visual-col">
+            <div class="dashboard-mockup">
+                <div class="mock-header"></div>
+                <div class="mock-row critical">
+                    <div class="row-text" style="width: 30%"></div>
+                    <div style="color: #EF5350; font-weight: bold; font-size: 14px;">CRITICAL: Asthma Exacerbation</div>
+                </div>
+                <div class="mock-row attention">
+                    <div class="row-text" style="width: 30%"></div>
+                    <div style="color: #FFC107; font-weight: bold; font-size: 14px;">ATTN: Medication Missed</div>
+                </div>
+                <div class="mock-row">
+                    <div class="row-text" style="width: 30%"></div>
+                    <div style="color: #4CAF50; font-weight: bold; font-size: 14px;">Stable</div>
+                </div>
+                <div class="mock-row">
+                    <div class="row-text" style="width: 30%"></div>
+                    <div style="color: #4CAF50; font-weight: bold; font-size: 14px;">Stable</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
