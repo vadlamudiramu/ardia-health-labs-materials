@@ -36,10 +36,10 @@ Your investment philosophy—targeting easily adoptable technologies with near-t
 I'd welcome the opportunity to share our clinical dashboard demonstration and discuss how ArdiA Health Labs fits your portfolio thesis.
 
 Best regards,  
-[Your Name]  
-Founder & CEO, ArdiA Health Labs  
+Ram Vadlamudi  
+Founder, ArdiA Health Labs  
 ardiahealthlabs.com  
-[Phone] | [Email]
++1 (469) 679-3334 | ram.vadlamudi@ardiahealthlabs.com
 
 ---
 
@@ -70,8 +70,8 @@ ArdiA Health Labs' Clinical Reasoning Engine is an AI-powered SaaS platform that
 Given your portfolio includes DocQ and Acclinate, I believe you understand the complexity of healthcare AI adoption. I'd appreciate 20 minutes to demonstrate our platform and discuss partnership.
 
 Best regards,  
-[Your Name]  
-Founder & CEO, ArdiA Health Labs  
+Ram Vadlamudi  
+Founder, ArdiA Health Labs  
 ardiahealthlabs.com
 
 ---
@@ -101,8 +101,8 @@ As a Dallas-based company targeting DFW healthcare systems initially, we're posi
 I'd welcome the opportunity to present our platform and discuss a potential seed investment.
 
 Best regards,  
-[Your Name]  
-Founder & CEO, ArdiA Health Labs
+Ram Vadlamudi  
+Founder, ArdiA Health Labs
 
 ---
 
@@ -131,8 +131,8 @@ Your DVC Advantage program—customer introductions, go-to-market playbooks, gro
 I'd appreciate the opportunity to discuss how ArdiA Health Labs fits your healthcare AI thesis and explore partnership.
 
 Best regards,  
-[Your Name]  
-Founder & CEO, ArdiA Health Labs
+Ram Vadlamudi  
+Founder, ArdiA Health Labs
 
 ---
 
@@ -161,8 +161,8 @@ Your portfolio demonstrates willingness to invest in technically ambitious compa
 I'd welcome a conversation about how our vision aligns with your healthcare investment thesis.
 
 Best regards,  
-[Your Name]  
-Founder & CEO, ArdiA Health Labs
+Ram Vadlamudi  
+Founder, ArdiA Health Labs
 
 ---
 
@@ -192,8 +192,8 @@ Healthcare AI spending tripled in 2025 to $1.4B. Independent clinics are activel
 I would be honored to present to your team and discuss how ArdiA Health Labs fits your growth-stage healthcare AI portfolio.
 
 Best regards,  
-[Your Name]  
-Founder & CEO, ArdiA Health Labs
+Ram Vadlamudi  
+Founder, ArdiA Health Labs
 
 ---
 
@@ -226,8 +226,8 @@ Seed investment, clinical validation mentorship, and introductions to health sys
 We're excited about the opportunity to join your portfolio of 130+ companies and contribute to Health Wildcatters' mission of building DFW's healthcare innovation hub.
 
 Best regards,  
-[Your Name]  
-Founder & CEO, ArdiA Health Labs
+Ram Vadlamudi  
+Founder, ArdiA Health Labs
 
 ---
 
@@ -264,8 +264,8 @@ As a DFW-based company, your investment supports local healthcare innovation whi
 I'd welcome the opportunity to present at your next meeting and discuss investment terms.
 
 Best regards,  
-[Your Name]  
-Founder & CEO, ArdiA Health Labs
+Ram Vadlamudi  
+Founder, ArdiA Health Labs
 
 ---
 
@@ -304,8 +304,8 @@ Healthcare AI spending hit $1.4B in 2025 (3x 2024). Chronic conditions represent
 I'd welcome 20 minutes to demonstrate our platform and discuss how ArdiA Health Labs extends a16z's healthcare AI portfolio.
 
 Best regards,  
-[Your Name]  
-Founder & CEO, ArdiA Health Labs
+Ram Vadlamudi  
+Founder, ArdiA Health Labs
 
 ---
 
@@ -335,8 +335,8 @@ Your operator-focused approach—healthcare leaders who get in the trenches with
 I'd appreciate the opportunity to discuss how ArdiA Health Labs fits your thesis of informed, connected health consumers.
 
 Best regards,  
-[Your Name]  
-Founder & CEO, ArdiA Health Labs
+Ram Vadlamudi  
+Founder, ArdiA Health Labs
 
 ---
 
@@ -372,8 +372,8 @@ Rock Health's advisory practice and corporate connections would be invaluable as
 I'd welcome the opportunity to present to your team.
 
 Best regards,  
-[Your Name]  
-Founder & CEO, ArdiA Health Labs
+Ram Vadlamudi  
+Founder, ArdiA Health Labs
 
 ---
 
@@ -407,8 +407,8 @@ Seed round to fund pilot deployments, clinical validation, and initial sales tea
 I'd appreciate the opportunity to present our platform and discuss partnership.
 
 Best regards,  
-[Your Name]  
-Founder & CEO, ArdiA Health Labs
+Ram Vadlamudi  
+Founder, ArdiA Health Labs
 
 ---
 
@@ -444,8 +444,8 @@ Your transformational approach and stage flexibility (seed to pre-IPO) make you 
 I'd welcome the opportunity to present our vision and discuss partnership.
 
 Best regards,  
-[Your Name]  
-Founder & CEO, ArdiA Health Labs
+Ram Vadlamudi  
+Founder, ArdiA Health Labs
 
 ---
 
@@ -476,8 +476,8 @@ Your portfolio includes Alife (AI-assisted fertility) and Summer Health (pediatr
 I'd welcome a conversation about how ArdiA Health Labs fits your investment thesis.
 
 Best regards,  
-[Your Name]  
-Founder & CEO, ArdiA Health Labs
+Ram Vadlamudi  
+Founder, ArdiA Health Labs
 
 ---
 
@@ -509,8 +509,8 @@ Susa's exceptional capabilities in helping seed-stage founders raise Series A fu
 I'd appreciate the opportunity to discuss how ArdiA Health Labs fits your investment thesis.
 
 Best regards,  
-[Your Name]  
-Founder & CEO, ArdiA Health Labs
+Ram Vadlamudi  
+Founder, ArdiA Health Labs
 
 ---
 
@@ -549,8 +549,8 @@ Your portfolio includes Season Health and Concert Health—tech-enabled solution
 I'd welcome the opportunity to pitch and discuss investment.
 
 Best regards,  
-[Your Name]  
-Founder & CEO, ArdiA Health Labs
+Ram Vadlamudi  
+Founder, ArdiA Health Labs
 
 ---
 
@@ -588,8 +588,8 @@ Unlike competitors focused on acute care imaging or single-condition application
 I'd appreciate the opportunity to discuss how ArdiA Health Labs fits your investment thesis.
 
 Best regards,  
-[Your Name]  
-Founder & CEO, ArdiA Health Labs
+Ram Vadlamudi  
+Founder, ArdiA Health Labs
 
 ---
 
@@ -620,8 +620,8 @@ Chronic conditions = 90% of healthcare spending. Enterprise health systems are s
 I'd welcome the opportunity to present our platform and discuss partnership.
 
 Best regards,  
-[Your Name]  
-Founder & CEO, ArdiA Health Labs
+Ram Vadlamudi  
+Founder, ArdiA Health Labs
 
 ---
 
@@ -661,8 +661,8 @@ We've built an AI system that provides explainable clinical intelligence for chr
 We're excited about the opportunity to join your program and leverage Cedars-Sinai's world-class clinical expertise.
 
 Best regards,  
-[Your Name]  
-Founder & CEO, ArdiA Health Labs
+Ram Vadlamudi  
+Founder, ArdiA Health Labs
 
 ---
 
@@ -705,8 +705,8 @@ We've built an AI Clinical Reasoning Engine that:
 We're excited about the opportunity to compete for the $500K prize and join your accelerator community.
 
 Best regards,  
-[Your Name]  
-Founder & CEO, ArdiA Health Labs
+Ram Vadlamudi  
+Founder, ArdiA Health Labs
 
 ---
 
@@ -784,7 +784,7 @@ ArdiA Health Labs' Clinical Reasoning Engine represents a paradigm shift from al
 ## USAGE INSTRUCTIONS
 
 ### Before Sending:
-1. **Personalize:** Replace [Your Name], [Phone], [Email] with actual information
+1. **Personalize:** Replace Ram Vadlamudi, [Phone], [Email] with actual information
 2. **Verify Contacts:** Confirm email addresses are current
 3. **Customize Numbers:** Update traction metrics with actual current data
 4. **Add Dashboard Link:** Include link to platform demonstration
