@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1280, height=720, initial-scale=1.0">
+    <title>ArdiA Health Labs - Pilot Results</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 64px 96px;
+            width: 1280px;
+            height: 720px;
+            box-sizing: border-box;
+            background-color: #121212;
+            color: #E8E8E8;
+            font-family: 'Inter', sans-serif;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 54px;
+            font-weight: 700;
+            color: #E8E8E8;
+            margin: 0 0 16px 0;
+            text-align: center;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #B3B3B3;
+            font-size: 24px;
+            margin-bottom: 48px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 24px;
+            flex: 1;
+        }
+
+        .card {
+            background-color: #1E1E1E;
+            border-radius: 16px;
+            border: 1px solid #2D2D2D;
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        
+        .card.highlight {
+            background: linear-gradient(135deg, #1E1E1E 0%, #252A30 100%);
+            border-color: #8BAFD0;
+        }
+
+        .big-number {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 64px;
+            font-weight: 700;
+            color: #8BAFD0;
+            margin-bottom: 8px;
+        }
+        
+        .card.highlight .big-number {
+            color: #E8E8E8;
+            text-shadow: 0 0 15px rgba(139, 175, 208, 0.3);
+        }
+
+        .label {
+            font-size: 20px;
+            font-weight: 600;
+            color: #E8E8E8;
+            margin-bottom: 4px;
+        }
+
+        .context {
+            font-size: 16px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <h2>Pilot Results</h2>
+    <div class="subtitle">3 Patients | 2 Clinics | 90 Days</div>
+    
+    <div class="grid">
+        <div class="card highlight">
+            <div class="big-number">74%</div>
+            <div class="label">Reduction</div>
+            <div class="context">in ER Visits</div>
+        </div>
+        
+        <div class="card highlight">
+            <div class="big-number">100%</div>
+            <div class="label">Reduction</div>
+            <div class="context">in Hospitalizations</div>
+        </div>
+        
+        <div class="card">
+            <div class="big-number">$30K</div>
+            <div class="label">Cost Savings</div>
+            <div class="context">Total saved in 90 days</div>
+        </div>
+        
+        <div class="card">
+            <div class="big-number">$1.6K</div>
+            <div class="label">Revenue</div>
+            <div class="context">Generated (CCM/RTM)</div>
+        </div>
+        
+        <div class="card">
+            <div class="big-number">96%</div>
+            <div class="label">Acceptance</div>
+            <div class="context">Provider recommendation rate</div>
+        </div>
+        
+        <div class="card">
+            <div class="big-number">90</div>
+            <div class="label">Days</div>
+            <div class="context">Duration of pilot</div>
+        </div>
+    </div>
+</body>
+</html>
