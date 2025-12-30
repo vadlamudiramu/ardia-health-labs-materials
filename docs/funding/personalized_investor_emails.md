@@ -1,6 +1,6 @@
-# Personalized Investor Outreach Emails for ArdiA Health Labs
+# Personalized Investor Outreach Emails for Ardia Health
 
-**Company:** ArdiA Health Labs (ardiahealthlabs.com)  
+**Company:** Ardia Health (ardiahealthlabs.com)  
 **Product:** Clinical Intelligence/Reasoning Engine for Chronic Disease Management  
 **Focus Areas:** Asthma, COPD, Chronic Kidney Disease  
 **Location:** DFW Metropolitan Area (76226)
@@ -33,11 +33,17 @@ ArdiA Health Labs has developed a Clinical Reasoning Engine that:
 **Why SHD Partners:**
 Your investment philosophy—targeting easily adoptable technologies with near-term value inflection points—describes our platform exactly. We're currently engaging independent clinics in the DFW region and demonstrating measurable outcomes within 90 days of deployment.
 
-I'd welcome the opportunity to share our clinical dashboard demonstration and discuss how ArdiA Health Labs fits your portfolio thesis.
+I'd welcome the opportunity to share our clinical dashboard demonstration and discuss how Ardia Health fits your portfolio thesis.
+
+You can view our interactive business documents and architecture here:
+- **Live Demo:** https://vlajul3oeejn.space.minimax.io
+- **GitHub Repository & Docs:** https://vadlamudiramu.github.io/ardia-health-labs-materials/
+
+I have also attached our pitch deck and a technical whitepaper for your convenience.
 
 Best regards,  
 Ram Vadlamudi  
-Founder, ArdiA Health Labs  
+Founder, Ardia Health  
 ardiahealthlabs.com  
 +1 (469) 679-3334 | ram.vadlamudi@ardiahealthlabs.com
 
@@ -69,9 +75,15 @@ ArdiA Health Labs' Clinical Reasoning Engine is an AI-powered SaaS platform that
 
 Given your portfolio includes DocQ and Acclinate, I believe you understand the complexity of healthcare AI adoption. I'd appreciate 20 minutes to demonstrate our platform and discuss partnership.
 
+You can view our interactive business documents and architecture here:
+- **Live Demo:** https://vlajul3oeejn.space.minimax.io
+- **GitHub Repository & Docs:** https://vadlamudiramu.github.io/ardia-health-labs-materials/
+
+I have also attached our pitch deck and a technical whitepaper for your convenience.
+
 Best regards,  
 Ram Vadlamudi  
-Founder, ArdiA Health Labs  
+Founder, Ardia Health  
 ardiahealthlabs.com
 
 ---
@@ -100,9 +112,15 @@ As a Dallas-based company targeting DFW healthcare systems initially, we're posi
 
 I'd welcome the opportunity to present our platform and discuss a potential seed investment.
 
+You can view our interactive business documents and architecture here:
+- **Live Demo:** https://vlajul3oeejn.space.minimax.io
+- **GitHub Repository & Docs:** https://vadlamudiramu.github.io/ardia-health-labs-materials/
+
+I have also attached our pitch deck and a technical whitepaper for your convenience.
+
 Best regards,  
 Ram Vadlamudi  
-Founder, ArdiA Health Labs
+Founder, Ardia Health
 
 ---
 
@@ -128,11 +146,17 @@ ArdiA Health Labs has built a Clinical Reasoning Engine providing:
 **Why DVC:**
 Your DVC Advantage program—customer introductions, go-to-market playbooks, growth mentorship—is precisely what we need as we move from platform development to commercial deployment.
 
-I'd appreciate the opportunity to discuss how ArdiA Health Labs fits your healthcare AI thesis and explore partnership.
+I'd appreciate the opportunity to discuss how Ardia Health fits your healthcare AI thesis and explore partnership.
+
+You can view our interactive business documents and architecture here:
+- **Live Demo:** https://vlajul3oeejn.space.minimax.io
+- **GitHub Repository & Docs:** https://vadlamudiramu.github.io/ardia-health-labs-materials/
+
+I have also attached our pitch deck and a technical whitepaper for your convenience.
 
 Best regards,  
 Ram Vadlamudi  
-Founder, ArdiA Health Labs
+Founder, Ardia Health
 
 ---
 
@@ -160,9 +184,15 @@ Your portfolio demonstrates willingness to invest in technically ambitious compa
 
 I'd welcome a conversation about how our vision aligns with your healthcare investment thesis.
 
+You can view our interactive business documents and architecture here:
+- **Live Demo:** https://vlajul3oeejn.space.minimax.io
+- **GitHub Repository & Docs:** https://vadlamudiramu.github.io/ardia-health-labs-materials/
+
+I have also attached our pitch deck and a technical whitepaper for your convenience.
+
 Best regards,  
 Ram Vadlamudi  
-Founder, ArdiA Health Labs
+Founder, Ardia Health
 
 ---
 
@@ -189,11 +219,17 @@ While most healthcare AI focuses on acute care (radiology, stroke detection), Ar
 **Why Now:**
 Healthcare AI spending tripled in 2025 to $1.4B. Independent clinics are actively seeking AI solutions that demonstrate ROI without requiring massive implementation efforts. We're positioned to capture this market with a proven platform.
 
-I would be honored to present to your team and discuss how ArdiA Health Labs fits your growth-stage healthcare AI portfolio.
+I would be honored to present to your team and discuss how Ardia Health fits your growth-stage healthcare AI portfolio.
+
+You can view our interactive business documents and architecture here:
+- **Live Demo:** https://vlajul3oeejn.space.minimax.io
+- **GitHub Repository & Docs:** https://vadlamudiramu.github.io/ardia-health-labs-materials/
+
+I have also attached our pitch deck and a technical whitepaper for your convenience.
 
 Best regards,  
 Ram Vadlamudi  
-Founder, ArdiA Health Labs
+Founder, Ardia Health
 
 ---
 
@@ -225,9 +261,15 @@ Seed investment, clinical validation mentorship, and introductions to health sys
 
 We're excited about the opportunity to join your portfolio of 130+ companies and contribute to Health Wildcatters' mission of building DFW's healthcare innovation hub.
 
+You can view our interactive business documents and architecture here:
+- **Live Demo:** https://vlajul3oeejn.space.minimax.io
+- **GitHub Repository & Docs:** https://vadlamudiramu.github.io/ardia-health-labs-materials/
+
+I have also attached our pitch deck and a technical whitepaper for your convenience.
+
 Best regards,  
 Ram Vadlamudi  
-Founder, ArdiA Health Labs
+Founder, Ardia Health
 
 ---
 
@@ -263,9 +305,15 @@ As a DFW-based company, your investment supports local healthcare innovation whi
 
 I'd welcome the opportunity to present at your next meeting and discuss investment terms.
 
+You can view our interactive business documents and architecture here:
+- **Live Demo:** https://vlajul3oeejn.space.minimax.io
+- **GitHub Repository & Docs:** https://vadlamudiramu.github.io/ardia-health-labs-materials/
+
+I have also attached our pitch deck and a technical whitepaper for your convenience.
+
 Best regards,  
 Ram Vadlamudi  
-Founder, ArdiA Health Labs
+Founder, Ardia Health
 
 ---
 
@@ -301,11 +349,17 @@ Healthcare AI spending hit $1.4B in 2025 (3x 2024). Chronic conditions represent
 - 15+ clinic pipeline in DFW region
 - Clear path to $1M ARR within 18 months
 
-I'd welcome 20 minutes to demonstrate our platform and discuss how ArdiA Health Labs extends a16z's healthcare AI portfolio.
+I'd welcome 20 minutes to demonstrate our platform and discuss how Ardia Health extends a16z's healthcare AI portfolio.
+
+You can view our interactive business documents and architecture here:
+- **Live Demo:** https://vlajul3oeejn.space.minimax.io
+- **GitHub Repository & Docs:** https://vadlamudiramu.github.io/ardia-health-labs-materials/
+
+I have also attached our pitch deck and a technical whitepaper for your convenience.
 
 Best regards,  
 Ram Vadlamudi  
-Founder, ArdiA Health Labs
+Founder, Ardia Health
 
 ---
 
@@ -332,11 +386,17 @@ We're targeting the underserved independent clinic market—practices managing a
 **Why 7wireVentures:**
 Your operator-focused approach—healthcare leaders who get in the trenches with founders—is exactly what we need as we move from platform development to commercial deployment.
 
-I'd appreciate the opportunity to discuss how ArdiA Health Labs fits your thesis of informed, connected health consumers.
+I'd appreciate the opportunity to discuss how Ardia Health fits your thesis of informed, connected health consumers.
+
+You can view our interactive business documents and architecture here:
+- **Live Demo:** https://vlajul3oeejn.space.minimax.io
+- **GitHub Repository & Docs:** https://vadlamudiramu.github.io/ardia-health-labs-materials/
+
+I have also attached our pitch deck and a technical whitepaper for your convenience.
 
 Best regards,  
 Ram Vadlamudi  
-Founder, ArdiA Health Labs
+Founder, Ardia Health
 
 ---
 
@@ -371,9 +431,15 @@ Rock Health's advisory practice and corporate connections would be invaluable as
 
 I'd welcome the opportunity to present to your team.
 
+You can view our interactive business documents and architecture here:
+- **Live Demo:** https://vlajul3oeejn.space.minimax.io
+- **GitHub Repository & Docs:** https://vadlamudiramu.github.io/ardia-health-labs-materials/
+
+I have also attached our pitch deck and a technical whitepaper for your convenience.
+
 Best regards,  
 Ram Vadlamudi  
-Founder, ArdiA Health Labs
+Founder, Ardia Health
 
 ---
 
@@ -406,9 +472,15 @@ Seed round to fund pilot deployments, clinical validation, and initial sales tea
 
 I'd appreciate the opportunity to present our platform and discuss partnership.
 
+You can view our interactive business documents and architecture here:
+- **Live Demo:** https://vlajul3oeejn.space.minimax.io
+- **GitHub Repository & Docs:** https://vadlamudiramu.github.io/ardia-health-labs-materials/
+
+I have also attached our pitch deck and a technical whitepaper for your convenience.
+
 Best regards,  
 Ram Vadlamudi  
-Founder, ArdiA Health Labs
+Founder, Ardia Health
 
 ---
 
@@ -443,9 +515,15 @@ Your transformational approach and stage flexibility (seed to pre-IPO) make you 
 
 I'd welcome the opportunity to present our vision and discuss partnership.
 
+You can view our interactive business documents and architecture here:
+- **Live Demo:** https://vlajul3oeejn.space.minimax.io
+- **GitHub Repository & Docs:** https://vadlamudiramu.github.io/ardia-health-labs-materials/
+
+I have also attached our pitch deck and a technical whitepaper for your convenience.
+
 Best regards,  
 Ram Vadlamudi  
-Founder, ArdiA Health Labs
+Founder, Ardia Health
 
 ---
 
@@ -473,11 +551,17 @@ ArdiA Health Labs' Clinical Reasoning Engine provides explainable clinical intel
 **Why Lux:**
 Your portfolio includes Alife (AI-assisted fertility) and Summer Health (pediatric care)—demonstrating appetite for AI applications in underserved clinical areas. Chronic disease management is the largest underserved area in healthcare AI.
 
-I'd welcome a conversation about how ArdiA Health Labs fits your investment thesis.
+I'd welcome a conversation about how Ardia Health fits your investment thesis.
+
+You can view our interactive business documents and architecture here:
+- **Live Demo:** https://vlajul3oeejn.space.minimax.io
+- **GitHub Repository & Docs:** https://vadlamudiramu.github.io/ardia-health-labs-materials/
+
+I have also attached our pitch deck and a technical whitepaper for your convenience.
 
 Best regards,  
 Ram Vadlamudi  
-Founder, ArdiA Health Labs
+Founder, Ardia Health
 
 ---
 
@@ -506,11 +590,17 @@ Your portfolio includes Photon and The Wound Co—solutions addressing specific 
 **Series A Preparation:**
 Susa's exceptional capabilities in helping seed-stage founders raise Series A funding is highly attractive. We're seeking partners who can help us build toward meaningful growth milestones.
 
-I'd appreciate the opportunity to discuss how ArdiA Health Labs fits your investment thesis.
+I'd appreciate the opportunity to discuss how Ardia Health fits your investment thesis.
+
+You can view our interactive business documents and architecture here:
+- **Live Demo:** https://vlajul3oeejn.space.minimax.io
+- **GitHub Repository & Docs:** https://vadlamudiramu.github.io/ardia-health-labs-materials/
+
+I have also attached our pitch deck and a technical whitepaper for your convenience.
 
 Best regards,  
 Ram Vadlamudi  
-Founder, ArdiA Health Labs
+Founder, Ardia Health
 
 ---
 
@@ -548,9 +638,15 @@ Your portfolio includes Season Health and Concert Health—tech-enabled solution
 
 I'd welcome the opportunity to pitch and discuss investment.
 
+You can view our interactive business documents and architecture here:
+- **Live Demo:** https://vlajul3oeejn.space.minimax.io
+- **GitHub Repository & Docs:** https://vadlamudiramu.github.io/ardia-health-labs-materials/
+
+I have also attached our pitch deck and a technical whitepaper for your convenience.
+
 Best regards,  
 Ram Vadlamudi  
-Founder, ArdiA Health Labs
+Founder, Ardia Health
 
 ---
 
@@ -585,11 +681,17 @@ Unlike competitors focused on acute care imaging or single-condition application
 - Ask: $500K-$1M range (aligned with your typical check size)
 - Use: Pilot deployments, clinical validation, initial sales
 
-I'd appreciate the opportunity to discuss how ArdiA Health Labs fits your investment thesis.
+I'd appreciate the opportunity to discuss how Ardia Health fits your investment thesis.
+
+You can view our interactive business documents and architecture here:
+- **Live Demo:** https://vlajul3oeejn.space.minimax.io
+- **GitHub Repository & Docs:** https://vadlamudiramu.github.io/ardia-health-labs-materials/
+
+I have also attached our pitch deck and a technical whitepaper for your convenience.
 
 Best regards,  
 Ram Vadlamudi  
-Founder, ArdiA Health Labs
+Founder, Ardia Health
 
 ---
 
@@ -619,9 +721,15 @@ Chronic conditions = 90% of healthcare spending. Enterprise health systems are s
 
 I'd welcome the opportunity to present our platform and discuss partnership.
 
+You can view our interactive business documents and architecture here:
+- **Live Demo:** https://vlajul3oeejn.space.minimax.io
+- **GitHub Repository & Docs:** https://vadlamudiramu.github.io/ardia-health-labs-materials/
+
+I have also attached our pitch deck and a technical whitepaper for your convenience.
+
 Best regards,  
 Ram Vadlamudi  
-Founder, ArdiA Health Labs
+Founder, Ardia Health
 
 ---
 
@@ -660,9 +768,15 @@ We've built an AI system that provides explainable clinical intelligence for chr
 
 We're excited about the opportunity to join your program and leverage Cedars-Sinai's world-class clinical expertise.
 
+You can view our interactive business documents and architecture here:
+- **Live Demo:** https://vlajul3oeejn.space.minimax.io
+- **GitHub Repository & Docs:** https://vadlamudiramu.github.io/ardia-health-labs-materials/
+
+I have also attached our pitch deck and a technical whitepaper for your convenience.
+
 Best regards,  
 Ram Vadlamudi  
-Founder, ArdiA Health Labs
+Founder, Ardia Health
 
 ---
 
@@ -704,9 +818,15 @@ We've built an AI Clinical Reasoning Engine that:
 
 We're excited about the opportunity to compete for the $500K prize and join your accelerator community.
 
+You can view our interactive business documents and architecture here:
+- **Live Demo:** https://vlajul3oeejn.space.minimax.io
+- **GitHub Repository & Docs:** https://vadlamudiramu.github.io/ardia-health-labs-materials/
+
+I have also attached our pitch deck and a technical whitepaper for your convenience.
+
 Best regards,  
 Ram Vadlamudi  
-Founder, ArdiA Health Labs
+Founder, Ardia Health
 
 ---
 
@@ -806,4 +926,4 @@ Create spreadsheet tracking:
 
 ---
 
-*Document prepared for ArdiA Health Labs investor outreach campaign*
+*Document prepared for Ardia Health investor outreach campaign*
