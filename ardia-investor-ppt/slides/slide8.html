@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=1280, height=720, initial-scale=1.0">
-    <title>ArdiA Health Labs - Business Model</title>
+    <title>ArdiA Health Labs - Patient Value</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/lucide@latest"></script>
     <style>
@@ -26,15 +26,23 @@
             font-size: 54px;
             font-weight: 700;
             color: #E8E8E8;
-            margin: 0 0 64px 0;
+            margin: 0 0 16px 0;
             text-align: center;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #B3B3B3;
+            font-size: 24px;
+            margin-bottom: 48px;
         }
 
         .grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            gap: 32px;
+            gap: 24px;
             flex: 1;
+            align-content: center;
         }
 
         .card {
@@ -45,67 +53,62 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            justify-content: center;
             text-align: center;
         }
-
-        .icon-circle {
-            width: 80px;
-            height: 80px;
-            border-radius: 50%;
-            background: rgba(139, 175, 208, 0.1);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 24px;
-            color: #8BAFD0;
+        
+        .card.highlight {
+            background: linear-gradient(135deg, #1E1E1E 0%, #252A30 100%);
+            border-color: #8BAFD0;
         }
 
-        .card h3 {
+        .big-number {
             font-family: 'Montserrat', sans-serif;
-            font-size: 28px;
-            margin: 0 0 16px 0;
-            color: #E8E8E8;
-        }
-
-        .card p {
-            font-size: 20px;
-            line-height: 1.5;
-            color: #B3B3B3;
-            margin: 0;
+            font-size: 72px;
+            font-weight: 700;
+            color: #8BAFD0;
+            margin-bottom: 8px;
         }
         
-        .highlight {
-            color: #8BAFD0;
+        .card.highlight .big-number {
+            color: #E8E8E8;
+            text-shadow: 0 0 15px rgba(139, 175, 208, 0.3);
+        }
+
+        .label {
+            font-size: 24px;
             font-weight: 600;
+            color: #E8E8E8;
+            margin-bottom: 8px;
+        }
+
+        .context {
+            font-size: 18px;
+            color: #888;
         }
     </style>
 </head>
 <body>
-    <h2>Business Model</h2>
+    <h2>Patient Impact</h2>
+    <div class="subtitle">Better Health Outcomes & Peace of Mind</div>
     
     <div class="grid">
-        <div class="card">
-            <div class="icon-circle">
-                <i data-lucide="building-2" width="40" height="40"></i>
-            </div>
-            <h3>B2B SaaS</h3>
-            <p>Subscription per clinic model ensures recurring revenue stream.</p>
+        <div class="card highlight">
+            <div class="big-number">74%</div>
+            <div class="label">Reduction</div>
+            <div class="context">in Emergency Room Visits</div>
         </div>
         
-        <div class="card">
-            <div class="icon-circle">
-                <i data-lucide="trending-up" width="40" height="40"></i>
-            </div>
-            <h3>Clinic ROI</h3>
-            <p>Generates <span class="highlight">$200K+/year</span> for clinics via CCM reimbursement codes.</p>
+        <div class="card highlight">
+            <div class="big-number">0</div>
+            <div class="label">Hospitalizations</div>
+            <div class="context">100% Avoidance in Pilot</div>
         </div>
         
-        <div class="card">
-            <div class="icon-circle">
-                <i data-lucide="expand" width="40" height="40"></i>
-            </div>
-            <h3>Land & Expand</h3>
-            <p>Start with chronic care, then expand to 20+ specialties across the system.</p>
+        <div class="card highlight">
+            <div class="big-number">94%</div>
+            <div class="label">Engagement</div>
+            <div class="context">Daily interaction rate</div>
         </div>
     </div>
     <script>lucide.createIcons();</script>

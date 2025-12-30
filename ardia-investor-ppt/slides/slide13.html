@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=1280, height=720, initial-scale=1.0">
-    <title>ArdiA Health Labs - Stakeholder Value</title>
+    <title>ArdiA Health Labs - Business Model</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/lucide@latest"></script>
     <style>
         body {
             margin: 0;
-            padding: 96px;
+            padding: 64px 96px;
             width: 1280px;
             height: 720px;
             box-sizing: border-box;
@@ -19,7 +19,6 @@
             overflow: hidden;
             display: flex;
             flex-direction: column;
-            justify-content: center;
         }
 
         h2 {
@@ -35,79 +34,78 @@
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 32px;
-            width: 100%;
+            flex: 1;
         }
 
         .card {
             background-color: #1E1E1E;
             border-radius: 16px;
             border: 1px solid #2D2D2D;
-            padding: 48px 32px;
+            padding: 32px;
             display: flex;
             flex-direction: column;
             align-items: center;
             text-align: center;
-            transition: transform 0.3s;
-        }
-        
-        .card:hover {
-            transform: translateY(-8px);
-            border-color: #8BAFD0;
         }
 
         .icon-circle {
-            width: 96px;
-            height: 96px;
+            width: 80px;
+            height: 80px;
             border-radius: 50%;
             background: rgba(139, 175, 208, 0.1);
             display: flex;
             align-items: center;
             justify-content: center;
-            margin-bottom: 32px;
+            margin-bottom: 24px;
             color: #8BAFD0;
         }
 
-        h3 {
+        .card h3 {
             font-family: 'Montserrat', sans-serif;
-            font-size: 32px;
+            font-size: 28px;
             margin: 0 0 16px 0;
             color: #E8E8E8;
         }
 
-        p {
+        .card p {
             font-size: 20px;
-            color: #B3B3B3;
             line-height: 1.5;
+            color: #B3B3B3;
             margin: 0;
+        }
+        
+        .highlight {
+            color: #8BAFD0;
+            font-weight: 600;
         }
     </style>
 </head>
 <body>
-    <h2>Value for Every Stakeholder</h2>
+    <h2>Business Model</h2>
     
     <div class="grid">
         <div class="card">
             <div class="icon-circle">
-                <i data-lucide="user" width="48" height="48"></i>
+                <i data-lucide="building-2" width="40" height="40"></i>
             </div>
-            <h3>Patients</h3>
-            <p>Better outcomes, fewer ER visits, and personalized 24/7 care.</p>
+            <h3>B2B SaaS</h3>
+            <p>Subscription per clinic model ensures recurring revenue stream.</p>
         </div>
         
         <div class="card">
             <div class="icon-circle">
-                <i data-lucide="stethoscope" width="48" height="48"></i>
+                <i data-lucide="trending-up" width="40" height="40"></i>
             </div>
-            <h3>Providers</h3>
-            <p>Clinical efficiency, reduced burnout, and new revenue streams.</p>
+            <h3>Clinic ROI</h3>
+            <p>Generates <span class="highlight">$200K+/year</span> for clinics via CCM reimbursement codes.</p>
         </div>
         
         <div class="card">
             <div class="icon-circle">
-                <i data-lucide="building-2" width="48" height="48"></i>
+                <i data-lucide="expand" width="40" height="40"></i>
             </div>
-            <h3>Payers</h3>
-            <p>Significant cost savings, risk stratification, and quality improvements.</p>
+            <h3>Land & Expand</h3>
+            <p>Start with chronic care, then expand to 20+ specialties across the system.</p>
         </div>
     </div>
     <script>lucide.createIcons();</script>

@@ -3,131 +3,150 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=1280, height=720, initial-scale=1.0">
-    <title>ArdiA Health Labs - Closing</title>
+    <title>ArdiA Health Labs - Payer Quality</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/lucide@latest"></script>
     <style>
         body {
             margin: 0;
-            padding: 0;
+            padding: 96px;
             width: 1280px;
             height: 720px;
+            box-sizing: border-box;
             background-color: #121212;
             color: #E8E8E8;
             font-family: 'Inter', sans-serif;
             overflow: hidden;
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            position: relative;
-        }
-        
-        /* Background Pattern */
-        .bg-pattern {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-image: 
-                radial-gradient(circle at 50% 50%, rgba(139, 175, 208, 0.05) 0%, transparent 70%);
-            z-index: 0;
-        }
-
-        .content {
-            z-index: 1;
-            text-align: center;
         }
 
         h2 {
             font-family: 'Montserrat', sans-serif;
-            font-size: 64px;
+            font-size: 54px;
             font-weight: 700;
             color: #E8E8E8;
-            margin: 0 0 24px 0;
+            margin: 0 0 16px 0;
+            text-align: center;
         }
-
-        .tagline {
-            font-family: 'Montserrat', sans-serif;
-            font-size: 32px;
-            font-weight: 500;
+        
+        .subtitle {
+            font-size: 28px;
             color: #8BAFD0;
             margin-bottom: 64px;
-            font-style: italic;
+            text-align: center;
         }
 
-        .contact-card {
-            background: #1E1E1E;
-            padding: 48px 64px;
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32px;
+            flex: 1;
+        }
+
+        .card {
+            background-color: #1E1E1E;
             border-radius: 16px;
             border: 1px solid #2D2D2D;
+            padding: 32px;
             display: flex;
             flex-direction: column;
-            gap: 24px;
             align-items: center;
-            box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+            text-align: center;
         }
 
-        .contact-item {
+        .icon-circle {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background: rgba(139, 175, 208, 0.1);
             display: flex;
             align-items: center;
-            gap: 16px;
+            justify-content: center;
+            margin-bottom: 24px;
+            color: #8BAFD0;
+        }
+
+        h3 {
+            font-family: 'Montserrat', sans-serif;
             font-size: 24px;
+            margin: 0 0 16px 0;
+            color: #E8E8E8;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: left;
+            width: 100%;
+        }
+
+        li {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
             color: #B3B3B3;
         }
 
-        .contact-item i {
+        li i {
             color: #8BAFD0;
-        }
-
-        .name {
-            font-size: 32px;
-            font-weight: 700;
-            color: #E8E8E8;
-            margin-bottom: 8px;
+            width: 16px;
+            height: 16px;
+            margin-top: 4px;
         }
         
-        .role {
-            font-size: 20px;
-            color: #8BAFD0;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            margin-bottom: 16px;
-        }
+        .highlight { color: #8BAFD0; font-weight: 600; }
 
     </style>
 </head>
 <body>
-    <div class="bg-pattern"></div>
+    <h2>Payer Value</h2>
+    <div class="subtitle">Quality, Risk & Partnership</div>
     
-    <div class="content">
-        <h2>Invest in the Future</h2>
-        <div class="tagline">"Let's solve healthcare together"</div>
+    <div class="grid">
+        <div class="card">
+            <div class="icon-circle">
+                <i data-lucide="shield-check" width="40" height="40"></i>
+            </div>
+            <h3>Risk Stratification</h3>
+            <ul>
+                <li><i data-lucide="check"></i> <strong>94%</strong> Prediction Accuracy</li>
+                <li><i data-lucide="check"></i> <strong>72 hrs</strong> Early Detection</li>
+                <li><i data-lucide="check"></i> Top <strong>5%</strong> High-Cost Targeting</li>
+                <li><i data-lucide="check"></i> <strong>-$9,930</strong> Cost/Member</li>
+            </ul>
+        </div>
         
-        <div class="contact-card">
-            <div>
-                <div class="name">Ram Vadlamudi</div>
-                <div class="role">Founder</div>
+        <div class="card">
+            <div class="icon-circle">
+                <i data-lucide="award" width="40" height="40"></i>
             </div>
-            
-            <div class="contact-item">
-                <i data-lucide="mail"></i>
-                ram.vadlamudi@ardiahealthlabs.com
+            <h3>HEDIS Quality Metrics</h3>
+            <ul>
+                <li><i data-lucide="trending-up"></i> <strong>+18%</strong> Asthma Med Ratio</li>
+                <li><i data-lucide="trending-up"></i> <strong>+12%</strong> BP Control</li>
+                <li><i data-lucide="trending-up"></i> <strong>4 &rarr; 5</strong> Star Rating Impact</li>
+                <li><i data-lucide="check"></i> Improved Medication Adherence</li>
+            </ul>
+        </div>
+        
+        <div class="card">
+            <div class="icon-circle">
+                <i data-lucide="handshake" width="40" height="40"></i>
             </div>
-            <div class="contact-item">
-                <i data-lucide="phone"></i>
-                +1 (469) 679-3334
-            </div>
-            <div class="contact-item">
-                <i data-lucide="globe"></i>
-                ardiahealthlabs.com
-            </div>
+            <h3>Partnership Models</h3>
+            <ul>
+                <li><i data-lucide="check"></i> Risk-Based Contracts</li>
+                <li><i data-lucide="check"></i> PMPM (Per Member Per Month)</li>
+                <li><i data-lucide="check"></i> Value-Based Care Shared Savings</li>
+                <li><i data-lucide="check"></i> Co-branded Digital Front Door</li>
+            </ul>
         </div>
     </div>
-
-    <script>
-        lucide.createIcons();
-    </script>
+    <script>lucide.createIcons();</script>
 </body>
 </html>

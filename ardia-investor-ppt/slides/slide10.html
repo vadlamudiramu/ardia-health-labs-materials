@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=1280, height=720, initial-scale=1.0">
-    <title>ArdiA Health Labs - Roadmap</title>
+    <title>ArdiA Health Labs - Provider Satisfaction</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/lucide@latest"></script>
     <style>
@@ -26,140 +26,120 @@
             font-size: 54px;
             font-weight: 700;
             color: #E8E8E8;
-            margin: 0 0 80px 0;
+            margin: 0 0 48px 0;
             text-align: center;
         }
 
-        .timeline-container {
-            position: relative;
-            flex: 1;
-            display: flex;
-            align-items: center;
+        /* Top Stats Row */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32px;
+            margin-bottom: 64px;
         }
 
-        .timeline-line {
-            position: absolute;
-            top: 50%;
-            left: 0;
-            width: 100%;
-            height: 4px;
-            background: #2D2D2D;
-            z-index: 0;
-        }
-
-        .milestones {
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-            position: relative;
-            z-index: 1;
-        }
-
-        .milestone {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+        .stat-item {
             text-align: center;
-            width: 220px;
+            background: #1E1E1E;
+            padding: 24px;
+            border-radius: 12px;
+            border: 1px solid #2D2D2D;
         }
 
-        .dot {
-            width: 24px;
-            height: 24px;
-            border-radius: 50%;
-            background: #121212;
-            border: 4px solid #8BAFD0;
-            margin: 16px 0;
-            transition: transform 0.3s;
-        }
-
-        .milestone:hover .dot {
-            transform: scale(1.2);
-            background: #8BAFD0;
-        }
-
-        .phase {
+        .stat-val {
             font-family: 'Montserrat', sans-serif;
-            font-size: 24px;
+            font-size: 48px;
             font-weight: 700;
             color: #8BAFD0;
             margin-bottom: 8px;
         }
 
-        .details {
+        .stat-desc {
             font-size: 18px;
             color: #B3B3B3;
-            line-height: 1.4;
         }
-        
-        .date {
-            font-weight: 600;
+
+        /* Testimonials Row */
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 32px;
+        }
+
+        .quote-card {
+            background: rgba(139, 175, 208, 0.05);
+            border-left: 4px solid #8BAFD0;
+            padding: 32px;
+            border-radius: 0 12px 12px 0;
+            position: relative;
+        }
+
+        .quote-text {
+            font-style: italic;
+            font-size: 20px;
+            line-height: 1.6;
             color: #E8E8E8;
-            margin-bottom: 4px;
+            margin-bottom: 16px;
         }
-        
-        /* Alternating layout */
-        .milestone:nth-child(odd) { flex-direction: column-reverse; }
-        .milestone:nth-child(odd) .dot { margin-top: 0; margin-bottom: 16px; }
-        .milestone:nth-child(even) .dot { margin-top: 16px; margin-bottom: 0; }
-        
-        /* Adjust positioning to align with line */
-        .milestone:nth-child(odd) { transform: translateY(-50px); }
-        .milestone:nth-child(even) { transform: translateY(50px); }
+
+        .quote-author {
+            font-weight: 600;
+            color: #8BAFD0;
+            font-size: 18px;
+        }
+
+        .quote-role {
+            font-size: 16px;
+            color: #888;
+        }
+
+        .quote-icon {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            opacity: 0.2;
+            color: #8BAFD0;
+        }
 
     </style>
 </head>
 <body>
-    <h2>Strategic Roadmap</h2>
+    <h2>Provider Satisfaction & Trust</h2>
     
-    <div class="timeline-container">
-        <div class="timeline-line"></div>
-        
-        <div class="milestones">
-            <div class="milestone">
-                <div class="details">
-                    <div class="date">M1-12</div>
-                    <div>Intelligence Engine v1.0</div>
-                    <div>4 Conditions</div>
-                    <div>Auto-911 Live</div>
-                </div>
-                <div class="dot"></div>
-                <div class="phase">Foundation</div>
-            </div>
-
-            <div class="milestone">
-                <div class="phase">Validation</div>
-                <div class="dot"></div>
-                <div class="details">
-                    <div class="date">M13-21</div>
-                    <div>10 Conditions</div>
-                    <div>3 Health Systems</div>
-                    <div>65% ER Reduction</div>
-                </div>
-            </div>
-
-            <div class="milestone">
-                <div class="details">
-                    <div class="date">M22-30</div>
-                    <div>16 Conditions</div>
-                    <div>20+ Systems</div>
-                    <div>$10K Saved/Patient</div>
-                </div>
-                <div class="dot"></div>
-                <div class="phase">Scale</div>
-            </div>
-
-            <div class="milestone">
-                <div class="phase">Quantum</div>
-                <div class="dot"></div>
-                <div class="details">
-                    <div class="date">2029+</div>
-                    <div>50K+ Patients</div>
-                    <div>Quantum-Accel</div>
-                    <div>Prediction</div>
-                </div>
-            </div>
+    <div class="stats-grid">
+        <div class="stat-item">
+            <div class="stat-val">96%</div>
+            <div class="stat-desc">Alert Acceptance Rate</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-val">12 min</div>
+            <div class="stat-desc">Avg. Response Time</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-val">4.9/5</div>
+            <div class="stat-desc">Provider Rating</div>
         </div>
     </div>
+
+    <div class="testimonials-grid">
+        <div class="quote-card">
+            <i data-lucide="quote" class="quote-icon" width="32"></i>
+            <div class="quote-text">
+                "Finally, an AI that thinks like a doctor. The context it provides makes every alert actionable immediately."
+            </div>
+            <div class="quote-author">Dr. Sarah Mitchell</div>
+            <div class="quote-role">Pulmonology Specialist</div>
+        </div>
+
+        <div class="quote-card">
+            <i data-lucide="quote" class="quote-icon" width="32"></i>
+            <div class="quote-text">
+                "The reduction in administrative burden is real. I spend more time with patients and less time digging through data."
+            </div>
+            <div class="quote-author">Dr. James Rodriguez</div>
+            <div class="quote-role">Nephrology Department Head</div>
+        </div>
+    </div>
+    <script>lucide.createIcons();</script>
 </body>
 </html>
