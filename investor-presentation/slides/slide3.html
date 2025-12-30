@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1280, height=720, initial-scale=1.0">
+    <title>ArdiA Health Labs - Solution</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 96px;
+            width: 1280px;
+            height: 720px;
+            box-sizing: border-box;
+            background-color: #121212;
+            color: #E8E8E8;
+            font-family: 'Inter', sans-serif;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+        }
+
+        .container {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            gap: 64px;
+        }
+
+        .text-col {
+            flex: 0 0 45%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            opacity: 0;
+            animation: slideInLeft 0.8s ease-out forwards;
+        }
+
+        .visual-col {
+            flex: 1;
+            background-color: #1E1E1E;
+            border-radius: 16px;
+            border: 1px solid #3D3D3D;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+            background: radial-gradient(circle at 50% 50%, rgba(139, 175, 208, 0.1) 0%, #1E1E1E 70%);
+            opacity: 0;
+            animation: slideInRight 0.8s ease-out 0.2s forwards;
+        }
+
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 54px;
+            font-weight: 700;
+            color: #E8E8E8;
+            margin: 0 0 16px 0;
+            line-height: 1.1;
+        }
+
+        .subtitle {
+            font-size: 24px;
+            color: #8BAFD0;
+            margin-bottom: 32px;
+            font-weight: 500;
+        }
+
+        .highlight-box {
+            background: rgba(139, 175, 208, 0.1);
+            border-left: 4px solid #8BAFD0;
+            padding: 24px;
+            border-radius: 0 8px 8px 0;
+            margin-bottom: 32px;
+        }
+
+        .highlight-text {
+            font-style: italic;
+            font-size: 20px;
+            color: #E8E8E8;
+            line-height: 1.6;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            font-size: 22px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            color: #B3B3B3;
+        }
+
+        li i {
+            color: #8BAFD0;
+        }
+
+        /* Diagram Elements */
+        .node {
+            background: #2D2D2D;
+            padding: 16px 32px;
+            border-radius: 32px;
+            border: 2px solid #8BAFD0;
+            color: #fff;
+            font-weight: 600;
+            font-size: 20px;
+            margin: 16px 0;
+            box-shadow: 0 0 20px rgba(139, 175, 208, 0.3);
+            z-index: 2;
+        }
+
+        .arrow-down {
+            width: 2px;
+            height: 40px;
+            background: #8BAFD0;
+            margin: 4px 0;
+        }
+
+        .final-node {
+            background: #8BAFD0;
+            color: #121212;
+            border-color: #8BAFD0;
+        }
+
+        @keyframes slideInLeft {
+            from { opacity: 0; transform: translateX(-30px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+        @keyframes slideInRight {
+            from { opacity: 0; transform: translateX(30px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text-col">
+            <h2>Clinical Reasoning Engine</h2>
+            <div class="subtitle">From Alerting &rarr; To Solving</div>
+
+            <div class="highlight-box">
+                <div class="highlight-text">
+                    "We don't say 'SpO2 is 92%.'<br>
+                    We say 'Start nasal steroid today—pollen is 3x your trigger threshold, pattern matches your March episode.'"
+                </div>
+            </div>
+
+            <ul>
+                <li><i data-lucide="check-circle"></i> Context-aware clinical logic</li>
+                <li><i data-lucide="check-circle"></i> Explainable AI with justification</li>
+                <li><i data-lucide="check-circle"></i> Proactive intervention, not just reactive alerts</li>
+            </ul>
+        </div>
+
+        <div class="visual-col">
+            <!-- Flow Diagram -->
+            <div class="node">Raw Data (SpO2, Pollen)</div>
+            <div class="arrow-down"></div>
+            <div class="node">Context (History, Patterns)</div>
+            <div class="arrow-down"></div>
+            <div class="node">Reasoning (Guidelines)</div>
+            <div class="arrow-down"></div>
+            <div class="node final-node">Actionable Solution</div>
+        </div>
+    </div>
+    <script>lucide.createIcons();</script>
+</body>
+</html>

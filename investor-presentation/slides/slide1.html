@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1280, height=720, initial-scale=1.0">
+    <title>ArdiA Health Labs - Title</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            width: 1280px;
+            height: 720px;
+            background-color: #121212;
+            color: #E8E8E8;
+            font-family: 'Inter', sans-serif;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        
+        /* Background Pattern */
+        .bg-pattern {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                radial-gradient(circle at 50% 50%, rgba(139, 175, 208, 0.05) 0%, transparent 60%),
+                linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+            background-size: 100% 100%, 40px 40px, 40px 40px;
+            opacity: 0;
+            animation: fadeIn 2s ease-out forwards;
+            z-index: 0;
+        }
+
+        .content {
+            z-index: 1;
+            text-align: center;
+            opacity: 0;
+            animation: slideUp 1s ease-out 0.5s forwards;
+        }
+
+        h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 96px;
+            font-weight: 700;
+            color: #E8E8E8;
+            margin: 0 0 24px 0;
+            letter-spacing: -2px;
+            text-shadow: 0 4px 12px rgba(0,0,0,0.5);
+        }
+
+        .subtitle {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 32px;
+            font-weight: 500;
+            color: #8BAFD0;
+            margin-bottom: 48px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            font-size: 20px;
+            color: #B3B3B3;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .logo-placeholder {
+            margin-bottom: 48px;
+            color: #8BAFD0;
+        }
+
+        @keyframes fadeIn {
+            to { opacity: 1; }
+        }
+
+        @keyframes slideUp {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-pattern"></div>
+    
+    <div class="content">
+        <div class="logo-placeholder">
+            <i data-lucide="activity" width="64" height="64"></i>
+        </div>
+        
+        <h1>ArdiA Health Labs</h1>
+        <div class="subtitle">From Alerting to Solving</div>
+        
+        <div class="contact-info">
+            <div class="contact-item">
+                <span style="color: #E8E8E8; font-weight: 600;">Ram Vadlamudi</span>
+                <span>|</span>
+                <span>Founder</span>
+            </div>
+            <div class="contact-item">
+                <i data-lucide="mail" width="16" height="16"></i>
+                ram.vadlamudi@ardiahealthlabs.com
+            </div>
+            <div class="contact-item">
+                <i data-lucide="phone" width="16" height="16"></i>
+                +1(469)679-3334
+            </div>
+        </div>
+    </div>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

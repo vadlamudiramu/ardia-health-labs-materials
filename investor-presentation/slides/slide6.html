@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1280, height=720, initial-scale=1.0">
+    <title>ArdiA Health Labs - Technology</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 96px;
+            width: 1280px;
+            height: 720px;
+            box-sizing: border-box;
+            background-color: #121212;
+            color: #E8E8E8;
+            font-family: 'Inter', sans-serif;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+        }
+
+        .container {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            gap: 64px;
+        }
+
+        .text-col {
+            flex: 0 0 45%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .visual-col {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 54px;
+            font-weight: 700;
+            color: #E8E8E8;
+            margin: 0 0 32px 0;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            font-size: 24px;
+            line-height: 1.6;
+            margin-bottom: 24px;
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+            color: #B3B3B3;
+        }
+
+        li i {
+            color: #8BAFD0;
+            margin-top: 4px;
+        }
+
+        /* Tech Stack Visual */
+        .tech-layer {
+            width: 100%;
+            height: 80px;
+            background: #1E1E1E;
+            border: 1px solid #2D2D2D;
+            border-radius: 12px;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            font-size: 20px;
+            color: #E8E8E8;
+            position: relative;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            transition: transform 0.3s;
+        }
+        
+        .tech-layer.top {
+            background: linear-gradient(90deg, #1E1E1E, #252A30);
+            border-color: #8BAFD0;
+            color: #8BAFD0;
+        }
+        
+        .tech-layer::before {
+            content: '';
+            position: absolute;
+            left: 20px;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #555;
+        }
+        
+        .tech-layer.top::before { background: #8BAFD0; box-shadow: 0 0 8px #8BAFD0; }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text-col">
+            <h2>Technology Deep-Dive</h2>
+            <ul>
+                <li>
+                    <i data-lucide="layers"></i>
+                    <span><strong>Multi-signal correlation</strong><br>EHR + Wearables + Env + Patient-reported</span>
+                </li>
+                <li>
+                    <i data-lucide="brain"></i>
+                    <span><strong>Clinical reasoning</strong><br>Causal logic, not just pattern matching</span>
+                </li>
+                <li>
+                    <i data-lucide="file-search"></i>
+                    <span><strong>Explainable AI</strong><br>Every recommendation has justification</span>
+                </li>
+                <li>
+                    <i data-lucide="atom"></i>
+                    <span><strong>Quantum-ready architecture</strong><br>Prepared for 2029 roadmap</span>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="visual-col">
+            <div class="tech-layer top">Clinical Reasoning Engine</div>
+            <div class="tech-layer">Multi-Signal Integration Layer</div>
+            <div class="tech-layer">Data Normalization</div>
+            <div class="tech-layer">Secure Ingestion (EHR/IoT)</div>
+        </div>
+    </div>
+    <script>lucide.createIcons();</script>
+</body>
+</html>
