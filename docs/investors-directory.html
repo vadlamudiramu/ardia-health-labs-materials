@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare AI Investors Directory | Ardia Health</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f0fdfa',
+                            100: '#ccfbf1',
+                            200: '#99f6e4',
+                            300: '#5eead4',
+                            400: '#2dd4bf',
+                            500: '#14b8a6',
+                            600: '#0d9488',
+                            700: '#0f766e',
+                            800: '#115e59',
+                            900: '#134e4a',
+                            950: '#042f2e',
+                        },
+                        dark: {
+                            bg: '#0f172a',
+                            card: '#1e293b',
+                            border: '#334155',
+                            text: '#f8fafc',
+                            muted: '#94a3b8'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #0f172a;
+            color: #f8fafc;
+        }
+        .glass-card {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #2dd4bf 0%, #3b82f6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .hero-pattern {
+            background-image: radial-gradient(rgba(45, 212, 191, 0.1) 1px, transparent 1px);
+            background-size: 40px 40px;
+        }
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0f172a;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #334155;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #475569;
+        }
+    </style>
+</head>
+<body class="font-sans antialiased min-h-screen hero-pattern">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 glass-card border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center gap-3">
+                    <div class="w-8 h-8 rounded bg-gradient-to-br from-brand-400 to-blue-600 flex items-center justify-center">
+                        <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.384-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
+                    </div>
+                    <span class="text-xl font-bold tracking-tight">Ardia<span class="text-brand-400">Health</span></span>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="#" class="px-3 py-2 rounded-md text-sm font-medium text-white bg-white/10">Investors</a>
+                        <a href="business-development-guide.html" class="px-3 py-2 rounded-md text-sm font-medium text-dark-muted hover:text-white hover:bg-white/5 transition-colors">Biz Dev Guide</a>
+                        <a href="clinic-pitch-materials.html" class="px-3 py-2 rounded-md text-sm font-medium text-dark-muted hover:text-white hover:bg-white/5 transition-colors">Pitch Materials</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="pt-24 pb-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        
+        <!-- Header Section -->
+        <div class="text-center mb-16">
+            <div class="inline-flex items-center px-3 py-1 rounded-full border border-brand-500/30 bg-brand-500/10 text-brand-300 text-sm font-medium mb-4">
+                <span class="w-2 h-2 rounded-full bg-brand-400 mr-2 animate-pulse"></span>
+                Healthcare AI Funding Landscape 2025
+            </div>
+            <h1 class="text-4xl md:text-5xl font-bold mb-6">Healthcare AI <span class="gradient-text">Investors Directory</span></h1>
+            <p class="text-xl text-dark-muted max-w-3xl mx-auto">
+                Comprehensive analysis of the DFW metropolitan area and national capital sources shaping the future of healthcare technology.
+            </p>
+        </div>
+
+        <!-- Stats Dashboard -->
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-16">
+            <div class="glass-card rounded-xl p-6 border-l-4 border-brand-500 relative overflow-hidden group">
+                <div class="absolute right-0 top-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity">
+                    <svg class="w-16 h-16 text-brand-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                </div>
+                <p class="text-sm text-brand-300 font-medium uppercase tracking-wider">National AI Funding</p>
+                <p class="text-3xl font-bold text-white mt-2">$10.5B</p>
+                <p class="text-xs text-dark-muted mt-2">VC Funding in 2024</p>
+            </div>
+            <div class="glass-card rounded-xl p-6 border-l-4 border-blue-500 relative overflow-hidden group">
+                <div class="absolute right-0 top-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity">
+                    <svg class="w-16 h-16 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                </div>
+                <p class="text-sm text-blue-300 font-medium uppercase tracking-wider">DFW Healthcare Funding</p>
+                <p class="text-3xl font-bold text-white mt-2">$1.2B</p>
+                <p class="text-xs text-dark-muted mt-2">Regional Capital 2025</p>
+            </div>
+            <div class="glass-card rounded-xl p-6 border-l-4 border-purple-500 relative overflow-hidden group">
+                <div class="absolute right-0 top-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity">
+                    <svg class="w-16 h-16 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
+                </div>
+                <p class="text-sm text-purple-300 font-medium uppercase tracking-wider">AI Spending Growth</p>
+                <p class="text-3xl font-bold text-white mt-2">300%</p>
+                <p class="text-xs text-dark-muted mt-2">vs 2024 Investment Levels</p>
+            </div>
+            <div class="glass-card rounded-xl p-6 border-l-4 border-orange-500 relative overflow-hidden group">
+                <div class="absolute right-0 top-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity">
+                    <svg class="w-16 h-16 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
+                </div>
+                <p class="text-sm text-orange-300 font-medium uppercase tracking-wider">DFW Startups</p>
+                <p class="text-3xl font-bold text-white mt-2">320+</p>
+                <p class="text-xs text-dark-muted mt-2">Deals Funded in 2025</p>
+            </div>
+        </div>
+
+        <!-- Ecosystem Diagram -->
+        <div class="mb-20">
+            <h2 class="text-2xl font-bold mb-8 flex items-center">
+                <svg class="w-6 h-6 mr-3 text-brand-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 7m0 13V7"></path></svg>
+                Investment Ecosystem Map
+            </h2>
+            <div class="glass-card rounded-2xl p-8 border border-white/5 relative overflow-hidden">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 relative z-10">
+                    <!-- DFW Hub -->
+                    <div class="relative group">
+                        <div class="absolute inset-0 bg-blue-500/10 blur-3xl rounded-full transform group-hover:scale-110 transition-transform duration-700"></div>
+                        <div class="relative bg-dark-card border border-blue-500/30 rounded-xl p-6 hover:border-blue-500/60 transition-colors">
+                            <div class="flex items-center justify-between mb-4">
+                                <h3 class="text-xl font-bold text-white">DFW Metroplex Hub</h3>
+                                <span class="px-2 py-1 bg-blue-500/20 text-blue-300 text-xs rounded uppercase font-semibold">Local Focus</span>
+                            </div>
+                            <p class="text-dark-muted text-sm mb-6">High-touch regional partners offering access to 30+ Fortune 1000 companies and local hospital systems.</p>
+                            
+                            <div class="space-y-3">
+                                <div class="flex items-center p-3 bg-white/5 rounded-lg border border-white/5 hover:bg-white/10 transition-colors cursor-pointer">
+                                    <div class="w-8 h-8 rounded bg-blue-900/50 flex items-center justify-center mr-3 text-blue-400 font-bold text-xs">SHD</div>
+                                    <div>
+                                        <div class="text-sm font-semibold text-white">SHD Partners</div>
+                                        <div class="text-xs text-dark-muted">Medtech Specialist</div>
+                                    </div>
+                                </div>
+                                <div class="flex items-center p-3 bg-white/5 rounded-lg border border-white/5 hover:bg-white/10 transition-colors cursor-pointer">
+                                    <div class="w-8 h-8 rounded bg-blue-900/50 flex items-center justify-center mr-3 text-blue-400 font-bold text-xs">GP</div>
+                                    <div>
+                                        <div class="text-sm font-semibold text-white">Green Park & Golf</div>
+                                        <div class="text-xs text-dark-muted">Healthcare & Enterprise</div>
+                                    </div>
+                                </div>
+                                <div class="flex items-center p-3 bg-white/5 rounded-lg border border-white/5 hover:bg-white/10 transition-colors cursor-pointer">
+                                    <div class="w-8 h-8 rounded bg-blue-900/50 flex items-center justify-center mr-3 text-blue-400 font-bold text-xs">HW</div>
+                                    <div>
+                                        <div class="text-sm font-semibold text-white">Health Wildcatters</div>
+                                        <div class="text-xs text-dark-muted">Top Tier Accelerator</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Connection Line (Desktop) -->
+                    <div class="hidden md:flex absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-12 h-12 bg-dark-bg border border-white/10 rounded-full items-center justify-center z-20">
+                        <svg class="w-6 h-6 text-dark-muted" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"></path></svg>
+                    </div>
+
+                    <!-- National Hub -->
+                    <div class="relative group">
+                        <div class="absolute inset-0 bg-brand-500/10 blur-3xl rounded-full transform group-hover:scale-110 transition-transform duration-700"></div>
+                        <div class="relative bg-dark-card border border-brand-500/30 rounded-xl p-6 hover:border-brand-500/60 transition-colors">
+                            <div class="flex items-center justify-between mb-4">
+                                <h3 class="text-xl font-bold text-white">National Leaders</h3>
+                                <span class="px-2 py-1 bg-brand-500/20 text-brand-300 text-xs rounded uppercase font-semibold">Scale Focus</span>
+                            </div>
+                            <p class="text-dark-muted text-sm mb-6">Capital-rich firms driving the $10.5B national market, offering massive scale and Silicon Valley networks.</p>
+                            
+                            <div class="space-y-3">
+                                <div class="flex items-center p-3 bg-white/5 rounded-lg border border-white/5 hover:bg-white/10 transition-colors cursor-pointer">
+                                    <div class="w-8 h-8 rounded bg-brand-900/50 flex items-center justify-center mr-3 text-brand-400 font-bold text-xs">A16Z</div>
+                                    <div>
+                                        <div class="text-sm font-semibold text-white">Andreessen Horowitz</div>
+                                        <div class="text-xs text-dark-muted">Industry Titan</div>
+                                    </div>
+                                </div>
+                                <div class="flex items-center p-3 bg-white/5 rounded-lg border border-white/5 hover:bg-white/10 transition-colors cursor-pointer">
+                                    <div class="w-8 h-8 rounded bg-brand-900/50 flex items-center justify-center mr-3 text-brand-400 font-bold text-xs">RH</div>
+                                    <div>
+                                        <div class="text-sm font-semibold text-white">Rock Health</div>
+                                        <div class="text-xs text-dark-muted">Strategic Digital Health</div>
+                                    </div>
+                                </div>
+                                <div class="flex items-center p-3 bg-white/5 rounded-lg border border-white/5 hover:bg-white/10 transition-colors cursor-pointer">
+                                    <div class="w-8 h-8 rounded bg-brand-900/50 flex items-center justify-center mr-3 text-brand-400 font-bold text-xs">7W</div>
+                                    <div>
+                                        <div class="text-sm font-semibold text-white">7wireVentures</div>
+                                        <div class="text-xs text-dark-muted">Consumer Health</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- DFW Section -->
+        <section class="mb-20">
+            <div class="flex items-center justify-between mb-8">
+                <div>
+                    <h2 class="text-2xl font-bold text-white">DFW Capital Partners</h2>
+                    <p class="text-dark-muted mt-1">Local investors specialized in MedTech and B2B SaaS</p>
+                </div>
+                <span class="hidden md:inline-flex px-3 py-1 rounded-full bg-blue-500/10 text-blue-400 text-sm border border-blue-500/20">Region: North Texas</span>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- SHD Partners -->
+                <div class="glass-card rounded-xl p-6 hover:bg-white/5 transition-all duration-300 border border-white/5 hover:border-brand-500/50 flex flex-col">
+                    <div class="flex justify-between items-start mb-4">
+                        <div class="w-12 h-12 rounded-lg bg-white/10 flex items-center justify-center text-xl font-bold text-white">SHD</div>
+                        <span class="px-2 py-1 bg-emerald-500/20 text-emerald-300 text-xs rounded">Medtech</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Scientific Health Development</h3>
+                    <p class="text-sm text-dark-muted mb-4 flex-grow">Boutique VC focusing on early-stage medtech with clear clinical utility and attainble value inflection points.</p>
+                    <div class="space-y-2 mb-6">
+                        <div class="flex items-center text-xs text-dark-muted">
+                            <svg class="w-4 h-4 mr-2 text-brand-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                            Dallas, TX
+                        </div>
+                        <div class="flex items-center text-xs text-dark-muted">
+                            <svg class="w-4 h-4 mr-2 text-brand-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            Early Stage Medtech
+                        </div>
+                    </div>
+                    <a href="https://shdpartners.com/contact/" target="_blank" class="block w-full text-center py-2 rounded-lg bg-white/5 hover:bg-brand-600 text-white text-sm font-medium transition-colors">Contact Firm</a>
+                </div>
+
+                <!-- Sentiero -->
+                <div class="glass-card rounded-xl p-6 hover:bg-white/5 transition-all duration-300 border border-white/5 hover:border-brand-500/50 flex flex-col">
+                    <div class="flex justify-between items-start mb-4">
+                        <div class="w-12 h-12 rounded-lg bg-white/10 flex items-center justify-center text-xl font-bold text-white">SV</div>
+                        <span class="px-2 py-1 bg-purple-500/20 text-purple-300 text-xs rounded">AI SaaS</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Sentiero Ventures</h3>
+                    <p class="text-sm text-dark-muted mb-4 flex-grow">AI-enabled SaaS solutions. Excellent for healthcare AI companies at Pre-seed to Seed stages.</p>
+                    <div class="space-y-2 mb-6">
+                        <div class="flex items-center text-xs text-dark-muted">
+                            <svg class="w-4 h-4 mr-2 text-brand-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                            Dallas, TX
+                        </div>
+                        <div class="flex items-center text-xs text-dark-muted">
+                            <svg class="w-4 h-4 mr-2 text-brand-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                            Pre-seed to Seed
+                        </div>
+                    </div>
+                    <a href="https://sentiero.vc" target="_blank" class="block w-full text-center py-2 rounded-lg bg-white/5 hover:bg-brand-600 text-white text-sm font-medium transition-colors">Visit Website</a>
+                </div>
+
+                <!-- Green Park & Golf -->
+                <div class="glass-card rounded-xl p-6 hover:bg-white/5 transition-all duration-300 border border-white/5 hover:border-brand-500/50 flex flex-col">
+                    <div class="flex justify-between items-start mb-4">
+                        <div class="w-12 h-12 rounded-lg bg-white/10 flex items-center justify-center text-xl font-bold text-white">GP</div>
+                        <span class="px-2 py-1 bg-blue-500/20 text-blue-300 text-xs rounded">Healthcare IT</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Green Park & Golf</h3>
+                    <p class="text-sm text-dark-muted mb-4 flex-grow">Bridges healthcare innovation with enterprise tech. Strong portfolio including BioIQ and Lantern Pharma.</p>
+                    <div class="space-y-2 mb-6">
+                        <div class="flex items-center text-xs text-dark-muted">
+                            <svg class="w-4 h-4 mr-2 text-brand-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                            Dallas, TX
+                        </div>
+                        <div class="flex items-center text-xs text-dark-muted">
+                            <svg class="w-4 h-4 mr-2 text-brand-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
+                            Seed to Series A
+                        </div>
+                    </div>
+                    <a href="https://gpgventures.com" target="_blank" class="block w-full text-center py-2 rounded-lg bg-white/5 hover:bg-brand-600 text-white text-sm font-medium transition-colors">Visit Website</a>
+                </div>
+
+                <!-- Dallas VC -->
+                <div class="glass-card rounded-xl p-6 hover:bg-white/5 transition-all duration-300 border border-white/5 hover:border-brand-500/50 flex flex-col">
+                    <div class="flex justify-between items-start mb-4">
+                        <div class="w-12 h-12 rounded-lg bg-white/10 flex items-center justify-center text-xl font-bold text-white">DVC</div>
+                        <span class="px-2 py-1 bg-yellow-500/20 text-yellow-300 text-xs rounded">B2B SaaS</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Dallas Venture Capital</h3>
+                    <p class="text-sm text-dark-muted mb-4 flex-grow">Connecting U.S. and India markets. Focus on B2B SaaS, AI, and data infrastructure.</p>
+                    <div class="space-y-2 mb-6">
+                        <div class="flex items-center text-xs text-dark-muted">
+                            <svg class="w-4 h-4 mr-2 text-brand-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                            Irving, TX
+                        </div>
+                        <div class="flex items-center text-xs text-dark-muted">
+                            <svg class="w-4 h-4 mr-2 text-brand-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            Seed to Series B
+                        </div>
+                    </div>
+                    <a href="https://dallasvc.com" target="_blank" class="block w-full text-center py-2 rounded-lg bg-white/5 hover:bg-brand-600 text-white text-sm font-medium transition-colors">Visit Website</a>
+                </div>
+
+                <!-- Perot Jain -->
+                <div class="glass-card rounded-xl p-6 hover:bg-white/5 transition-all duration-300 border border-white/5 hover:border-brand-500/50 flex flex-col">
+                    <div class="flex justify-between items-start mb-4">
+                        <div class="w-12 h-12 rounded-lg bg-white/10 flex items-center justify-center text-xl font-bold text-white">PJ</div>
+                        <span class="px-2 py-1 bg-red-500/20 text-red-300 text-xs rounded">Enterprise</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Perot Jain</h3>
+                    <p class="text-sm text-dark-muted mb-4 flex-grow">Deep operational experience. Investing in logistics, healthcare, and advanced manufacturing.</p>
+                    <div class="space-y-2 mb-6">
+                        <div class="flex items-center text-xs text-dark-muted">
+                            <svg class="w-4 h-4 mr-2 text-brand-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                            Dallas, TX
+                        </div>
+                        <div class="flex items-center text-xs text-dark-muted">
+                            <svg class="w-4 h-4 mr-2 text-brand-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
+                            Seed to Series A
+                        </div>
+                    </div>
+                    <a href="https://perotjain.com" target="_blank" class="block w-full text-center py-2 rounded-lg bg-white/5 hover:bg-brand-600 text-white text-sm font-medium transition-colors">Visit Website</a>
+                </div>
+
+                <!-- S3 Ventures -->
+                <div class="glass-card rounded-xl p-6 hover:bg-white/5 transition-all duration-300 border border-white/5 hover:border-brand-500/50 flex flex-col">
+                    <div class="flex justify-between items-start mb-4">
+                        <div class="w-12 h-12 rounded-lg bg-white/10 flex items-center justify-center text-xl font-bold text-white">S3</div>
+                        <span class="px-2 py-1 bg-indigo-500/20 text-indigo-300 text-xs rounded">Large Scale</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">S3 Ventures</h3>
+                    <p class="text-sm text-dark-muted mb-4 flex-grow">Largest VC in Texas. Investing in SaaS, medtech, and frontier tech from Seed to Growth.</p>
+                    <div class="space-y-2 mb-6">
+                        <div class="flex items-center text-xs text-dark-muted">
+                            <svg class="w-4 h-4 mr-2 text-brand-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                            Austin/Dallas, TX
+                        </div>
+                        <div class="flex items-center text-xs text-dark-muted">
+                            <svg class="w-4 h-4 mr-2 text-brand-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
+                            Seed to Growth
+                        </div>
+                    </div>
+                    <a href="https://s3vc.com" target="_blank" class="block w-full text-center py-2 rounded-lg bg-white/5 hover:bg-brand-600 text-white text-sm font-medium transition-colors">Visit Website</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- National Section -->
+        <section class="mb-20">
+            <div class="flex items-center justify-between mb-8">
+                <div>
+                    <h2 class="text-2xl font-bold text-white">National Heavyweights</h2>
+                    <p class="text-dark-muted mt-1">Leading US funds specializing in Healthcare AI and Digital Health</p>
+                </div>
+                <span class="hidden md:inline-flex px-3 py-1 rounded-full bg-brand-500/10 text-brand-400 text-sm border border-brand-500/20">Scope: National</span>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- a16z -->
+                <div class="glass-card rounded-xl p-5 hover:bg-white/5 transition-all border border-white/5 hover:border-brand-500/50">
+                    <h3 class="font-bold text-lg mb-1">Andreessen Horowitz</h3>
+                    <p class="text-xs text-brand-400 mb-3 uppercase tracking-wide">The Titan</p>
+                    <p class="text-xs text-dark-muted mb-4 line-clamp-3">Investing in horizontal infrastructure and full-stack tech-enabled services. $1M-$10M check sizes.</p>
+                    <div class="flex items-center justify-between mt-auto">
+                        <span class="text-xs text-white bg-white/10 px-2 py-1 rounded">Seed to Growth</span>
+                        <a href="https://a16z.com" class="text-brand-400 hover:text-brand-300 text-sm font-medium">View &rarr;</a>
+                    </div>
+                </div>
+
+                <!-- 7wire -->
+                <div class="glass-card rounded-xl p-5 hover:bg-white/5 transition-all border border-white/5 hover:border-brand-500/50">
+                    <h3 class="font-bold text-lg mb-1">7wireVentures</h3>
+                    <p class="text-xs text-brand-400 mb-3 uppercase tracking-wide">Consumer Focus</p>
+                    <p class="text-xs text-dark-muted mb-4 line-clamp-3">Empowering the "Informed Connected Health Consumer". Backers of Livongo. $4-6M checks.</p>
+                    <div class="flex items-center justify-between mt-auto">
+                        <span class="text-xs text-white bg-white/10 px-2 py-1 rounded">Series A</span>
+                        <a href="https://7wireventures.com" class="text-brand-400 hover:text-brand-300 text-sm font-medium">View &rarr;</a>
+                    </div>
+                </div>
+
+                <!-- Rock Health -->
+                <div class="glass-card rounded-xl p-5 hover:bg-white/5 transition-all border border-white/5 hover:border-brand-500/50">
+                    <h3 class="font-bold text-lg mb-1">Rock Health</h3>
+                    <p class="text-xs text-brand-400 mb-3 uppercase tracking-wide">Strategic</p>
+                    <p class="text-xs text-dark-muted mb-4 line-clamp-3">Fund + Advisory. Deep research and corporate network. $500k-$5M checks.</p>
+                    <div class="flex items-center justify-between mt-auto">
+                        <span class="text-xs text-white bg-white/10 px-2 py-1 rounded">Seed/Series A</span>
+                        <a href="https://rockhealth.com" class="text-brand-400 hover:text-brand-300 text-sm font-medium">View &rarr;</a>
+                    </div>
+                </div>
+
+                <!-- DHVP -->
+                <div class="glass-card rounded-xl p-5 hover:bg-white/5 transition-all border border-white/5 hover:border-brand-500/50">
+                    <h3 class="font-bold text-lg mb-1">DHVP</h3>
+                    <p class="text-xs text-brand-400 mb-3 uppercase tracking-wide">Specialist</p>
+                    <p class="text-xs text-dark-muted mb-4 line-clamp-3">Digital Health Venture Partners. Exclusively healthcare software and AI-enabled services.</p>
+                    <div class="flex items-center justify-between mt-auto">
+                        <span class="text-xs text-white bg-white/10 px-2 py-1 rounded">Seed</span>
+                        <a href="https://dhvp.io" class="text-brand-400 hover:text-brand-300 text-sm font-medium">View &rarr;</a>
+                    </div>
+                </div>
+
+                <!-- Healthy Ventures -->
+                <div class="glass-card rounded-xl p-5 hover:bg-white/5 transition-all border border-white/5 hover:border-brand-500/50">
+                    <h3 class="font-bold text-lg mb-1">Healthy Ventures</h3>
+                    <p class="text-xs text-brand-400 mb-3 uppercase tracking-wide">Scale Focus</p>
+                    <p class="text-xs text-dark-muted mb-4 line-clamp-3">Infrastructural software enabling healthcare scale. $1-3M seed checks.</p>
+                    <div class="flex items-center justify-between mt-auto">
+                        <span class="text-xs text-white bg-white/10 px-2 py-1 rounded">Seed</span>
+                        <a href="https://healthy.vc" class="text-brand-400 hover:text-brand-300 text-sm font-medium">View &rarr;</a>
+                    </div>
+                </div>
+
+                 <!-- Virtue VC -->
+                 <div class="glass-card rounded-xl p-5 hover:bg-white/5 transition-all border border-white/5 hover:border-brand-500/50">
+                    <h3 class="font-bold text-lg mb-1">Virtue VC</h3>
+                    <p class="text-xs text-brand-400 mb-3 uppercase tracking-wide">Operations</p>
+                    <p class="text-xs text-dark-muted mb-4 line-clamp-3">Focus on the "Business of Care" - data, dollars, and delivery. $500k-$1M checks.</p>
+                    <div class="flex items-center justify-between mt-auto">
+                        <span class="text-xs text-white bg-white/10 px-2 py-1 rounded">Pre-seed/Seed</span>
+                        <a href="https://virtuevc.com" class="text-brand-400 hover:text-brand-300 text-sm font-medium">View &rarr;</a>
+                    </div>
+                </div>
+
+                <!-- Define Ventures -->
+                <div class="glass-card rounded-xl p-5 hover:bg-white/5 transition-all border border-white/5 hover:border-brand-500/50">
+                    <h3 class="font-bold text-lg mb-1">Define Ventures</h3>
+                    <p class="text-xs text-brand-400 mb-3 uppercase tracking-wide">Partnership</p>
+                    <p class="text-xs text-dark-muted mb-4 line-clamp-3">Deep digital health expertise. Investing $1M-$20M across various stages.</p>
+                    <div class="flex items-center justify-between mt-auto">
+                        <span class="text-xs text-white bg-white/10 px-2 py-1 rounded">Multi-stage</span>
+                        <a href="https://definevc.com" class="text-brand-400 hover:text-brand-300 text-sm font-medium">View &rarr;</a>
+                    </div>
+                </div>
+
+                <!-- General Catalyst -->
+                <div class="glass-card rounded-xl p-5 hover:bg-white/5 transition-all border border-white/5 hover:border-brand-500/50">
+                    <h3 class="font-bold text-lg mb-1">General Catalyst</h3>
+                    <p class="text-xs text-brand-400 mb-3 uppercase tracking-wide">Health Assurance</p>
+                    <p class="text-xs text-dark-muted mb-4 line-clamp-3">Transforming healthcare systems to be proactive, resilient, and affordable.</p>
+                    <div class="flex items-center justify-between mt-auto">
+                        <span class="text-xs text-white bg-white/10 px-2 py-1 rounded">All Stages</span>
+                        <a href="https://generalcatalyst.com" class="text-brand-400 hover:text-brand-300 text-sm font-medium">View &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Accelerators & Competitions Grid -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+            <!-- Accelerators -->
+            <div class="glass-card rounded-2xl p-8 border border-white/5">
+                <h2 class="text-2xl font-bold mb-6 flex items-center">
+                    <span class="w-8 h-8 rounded bg-teal-500/20 text-teal-400 flex items-center justify-center mr-3">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                    </span>
+                    Top Accelerators
+                </h2>
+                <div class="space-y-4">
+                    <div class="group p-4 rounded-xl bg-white/5 hover:bg-white/10 transition-colors cursor-pointer border border-transparent hover:border-brand-500/30">
+                        <div class="flex justify-between items-start">
+                            <h4 class="font-bold text-lg">Health Wildcatters</h4>
+                            <span class="text-xs bg-brand-500/20 text-brand-300 px-2 py-1 rounded">Dallas</span>
+                        </div>
+                        <p class="text-sm text-dark-muted mt-2">10-week program. 200+ mentors. $350M+ raised by alumni. The premier choice for DFW startups.</p>
+                    </div>
+                    <div class="group p-4 rounded-xl bg-white/5 hover:bg-white/10 transition-colors cursor-pointer border border-transparent hover:border-brand-500/30">
+                        <div class="flex justify-between items-start">
+                            <h4 class="font-bold text-lg">Cedars-Sinai Accelerator</h4>
+                            <span class="text-xs bg-brand-500/20 text-brand-300 px-2 py-1 rounded">Los Angeles</span>
+                        </div>
+                        <p class="text-sm text-dark-muted mt-2">3-month program with $100k convertible note. Unrivaled clinical access to hospital systems.</p>
+                    </div>
+                    <div class="group p-4 rounded-xl bg-white/5 hover:bg-white/10 transition-colors cursor-pointer border border-transparent hover:border-brand-500/30">
+                        <div class="flex justify-between items-start">
+                            <h4 class="font-bold text-lg">MedTech Innovator</h4>
+                            <span class="text-xs bg-brand-500/20 text-brand-300 px-2 py-1 rounded">Global</span>
+                        </div>
+                        <p class="text-sm text-dark-muted mt-2">World's largest accelerator for medical devices and digital health. Up to $500k in non-dilutive prizes.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pitch Competitions -->
+            <div class="glass-card rounded-2xl p-8 border border-white/5">
+                <h2 class="text-2xl font-bold mb-6 flex items-center">
+                    <span class="w-8 h-8 rounded bg-yellow-500/20 text-yellow-400 flex items-center justify-center mr-3">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6 3 3 0 000 6zM5 19a2 2 0 012 2h6a2 2 0 012-2"></path></svg>
+                    </span>
+                    Pitch Competitions
+                </h2>
+                <div class="space-y-4">
+                    <div class="flex items-center justify-between p-4 rounded-xl bg-white/5 border border-white/5">
+                        <div>
+                            <h4 class="font-bold text-white">MedTech Color</h4>
+                            <p class="text-xs text-dark-muted">Diverse founders focus</p>
+                        </div>
+                        <div class="text-right">
+                            <p class="text-brand-400 font-bold">$75k+</p>
+                            <p class="text-xs text-dark-muted">1st Place</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center justify-between p-4 rounded-xl bg-white/5 border border-white/5">
+                        <div>
+                            <h4 class="font-bold text-white">MEDICA Start-up</h4>
+                            <p class="text-xs text-dark-muted">Global visibility</p>
+                        </div>
+                        <div class="text-right">
+                            <p class="text-brand-400 font-bold">Top 15</p>
+                            <p class="text-xs text-dark-muted">Recognition</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center justify-between p-4 rounded-xl bg-white/5 border border-white/5">
+                        <div>
+                            <h4 class="font-bold text-white">Health Tech Challengers</h4>
+                            <p class="text-xs text-dark-muted">8 specialized tracks</p>
+                        </div>
+                        <div class="text-right">
+                            <p class="text-brand-400 font-bold">Global</p>
+                            <p class="text-xs text-dark-muted">Exposure</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="border-t border-white/10 pt-8 mt-12 text-center text-dark-muted text-sm">
+            <p>&copy; 2025 Ardia Health. Internal Confidential Document.</p>
+        </footer>
+
+    </main>
+</body>
+</html>

@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Development Guide | Ardia Health</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f0fdfa',
+                            100: '#ccfbf1',
+                            200: '#99f6e4',
+                            300: '#5eead4',
+                            400: '#2dd4bf',
+                            500: '#14b8a6',
+                            600: '#0d9488',
+                            700: '#0f766e',
+                            800: '#115e59',
+                            900: '#134e4a',
+                            950: '#042f2e',
+                        },
+                        dark: {
+                            bg: '#0f172a',
+                            card: '#1e293b',
+                            border: '#334155',
+                            text: '#f8fafc',
+                            muted: '#94a3b8'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #0f172a;
+            color: #f8fafc;
+        }
+        .glass-card {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .sidebar-link.active {
+            background: rgba(45, 212, 191, 0.1);
+            color: #2dd4bf;
+            border-right: 3px solid #2dd4bf;
+        }
+        /* Vertical Timeline */
+        .timeline-line {
+            position: absolute;
+            left: 24px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #334155;
+        }
+        .timeline-dot {
+            position: absolute;
+            left: 16px;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            border: 3px solid #0f172a;
+        }
+    </style>
+</head>
+<body class="font-sans antialiased min-h-screen flex flex-col md:flex-row">
+
+    <!-- Sidebar Navigation -->
+    <aside class="w-full md:w-64 bg-dark-card border-r border-dark-border md:fixed md:h-screen z-20 overflow-y-auto">
+        <div class="p-6 border-b border-dark-border">
+            <div class="flex items-center gap-2">
+                <div class="w-8 h-8 rounded bg-gradient-to-br from-brand-400 to-blue-600 flex items-center justify-center">
+                    <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
+                </div>
+                <span class="text-xl font-bold tracking-tight">Ardia<span class="text-brand-400">Health</span></span>
+            </div>
+            <p class="text-xs text-dark-muted mt-2 uppercase tracking-wider">Biz Dev Guide 2025</p>
+        </div>
+        <nav class="p-4 space-y-1">
+            <a href="#context" class="sidebar-link active flex items-center px-4 py-3 text-sm font-medium rounded-r-md text-white hover:bg-white/5 transition-colors group">
+                <svg class="w-5 h-5 mr-3 text-dark-muted group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
+                Strategic Context
+            </a>
+            <a href="#clinic" class="sidebar-link flex items-center px-4 py-3 text-sm font-medium rounded-r-md text-dark-muted hover:bg-white/5 transition-colors group">
+                <svg class="w-5 h-5 mr-3 text-dark-muted group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
+                Clinic Outreach
+            </a>
+            <a href="#investor" class="sidebar-link flex items-center px-4 py-3 text-sm font-medium rounded-r-md text-dark-muted hover:bg-white/5 transition-colors group">
+                <svg class="w-5 h-5 mr-3 text-dark-muted group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                Investor Strategy
+            </a>
+            <a href="#payer" class="sidebar-link flex items-center px-4 py-3 text-sm font-medium rounded-r-md text-dark-muted hover:bg-white/5 transition-colors group">
+                <svg class="w-5 h-5 mr-3 text-dark-muted group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                Payer Engagement
+            </a>
+            <a href="#roadmap" class="sidebar-link flex items-center px-4 py-3 text-sm font-medium rounded-r-md text-dark-muted hover:bg-white/5 transition-colors group">
+                <svg class="w-5 h-5 mr-3 text-dark-muted group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 7m0 13V7"></path></svg>
+                Execution Roadmap
+            </a>
+        </nav>
+        <div class="absolute bottom-0 w-full p-4 border-t border-dark-border bg-dark-card">
+            <div class="flex items-center">
+                <div class="ml-3">
+                    <p class="text-sm font-medium text-white">Quick Links</p>
+                    <a href="investors-directory.html" class="text-xs text-brand-400 hover:text-brand-300">Investors Directory &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="md:ml-64 flex-1 p-8 max-w-5xl">
+        
+        <!-- Header -->
+        <header class="mb-12">
+            <h1 class="text-4xl font-bold mb-4">Strategic Business Development <span class="text-brand-400">Guide</span></h1>
+            <p class="text-xl text-dark-muted">Comprehensive market entry strategy for DFW and National healthcare markets.</p>
+        </header>
+
+        <!-- Section 1: Strategic Context -->
+        <section id="context" class="mb-20 scroll-mt-20">
+            <h2 class="text-2xl font-bold mb-6 pb-2 border-b border-dark-border">1. Strategic Context</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                <div class="glass-card rounded-xl p-6">
+                    <h3 class="text-lg font-semibold mb-4 text-white flex items-center">
+                        <span class="w-2 h-2 rounded-full bg-brand-500 mr-2"></span>
+                        Market Opportunity
+                    </h3>
+                    <div class="space-y-4">
+                        <div>
+                            <div class="flex justify-between text-sm mb-1">
+                                <span class="text-dark-muted">Healthcare AI Spending 2025</span>
+                                <span class="text-white font-bold">$1.4 Billion</span>
+                            </div>
+                            <div class="w-full bg-dark-bg rounded-full h-2">
+                                <div class="bg-brand-500 h-2 rounded-full" style="width: 100%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between text-sm mb-1">
+                                <span class="text-dark-muted">Adoption Growth (YoY)</span>
+                                <span class="text-white font-bold">300%</span>
+                            </div>
+                            <div class="w-full bg-dark-bg rounded-full h-2">
+                                <div class="bg-blue-500 h-2 rounded-full" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <p class="text-sm text-dark-muted mt-4">
+                            Market is shifting from experimental exploration to production deployment. 85% of AI spending currently flows to startups.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="glass-card rounded-xl p-6">
+                    <h3 class="text-lg font-semibold mb-4 text-white flex items-center">
+                        <span class="w-2 h-2 rounded-full bg-purple-500 mr-2"></span>
+                        DFW Ecosystem
+                    </h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-purple-500 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            <span class="text-sm text-dark-muted"><strong class="text-white">$1.2B</strong> in healthcare funding (2025)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-purple-500 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            <span class="text-sm text-dark-muted"><strong class="text-white">30+ Fortune 1000</strong> companies in region</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-purple-500 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            <span class="text-sm text-dark-muted">Highly competitive payer market (BCBS vs UHC)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Strategic Flowchart -->
+            <div class="glass-card rounded-xl p-8 overflow-x-auto">
+                <h3 class="text-lg font-semibold mb-6 text-center">Strategic Flywheel</h3>
+                <div class="flex flex-col md:flex-row items-center justify-between gap-4 min-w-[600px]">
+                    <!-- Step 1 -->
+                    <div class="flex flex-col items-center text-center max-w-[180px]">
+                        <div class="w-16 h-16 rounded-full bg-brand-900/50 border-2 border-brand-500 flex items-center justify-center mb-3">
+                            <svg class="w-8 h-8 text-brand-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
+                        </div>
+                        <h4 class="font-bold text-white">Clinic Partnerships</h4>
+                        <p class="text-xs text-dark-muted mt-1">Generate early evidence, revenue ($200k/clinic), and case studies.</p>
+                    </div>
+
+                    <!-- Arrow -->
+                    <div class="hidden md:block h-0.5 bg-dark-border flex-1 mx-4 relative">
+                        <div class="absolute right-0 -top-1.5 w-3 h-3 border-t-2 border-r-2 border-dark-border transform rotate-45"></div>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="flex flex-col items-center text-center max-w-[180px]">
+                        <div class="w-16 h-16 rounded-full bg-blue-900/50 border-2 border-blue-500 flex items-center justify-center mb-3">
+                            <svg class="w-8 h-8 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        </div>
+                        <h4 class="font-bold text-white">Investor Funding</h4>
+                        <p class="text-xs text-dark-muted mt-1">Leverage clinic traction to secure Seed/Series A capital for scale.</p>
+                    </div>
+
+                    <!-- Arrow -->
+                    <div class="hidden md:block h-0.5 bg-dark-border flex-1 mx-4 relative">
+                        <div class="absolute right-0 -top-1.5 w-3 h-3 border-t-2 border-r-2 border-dark-border transform rotate-45"></div>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="flex flex-col items-center text-center max-w-[180px]">
+                        <div class="w-16 h-16 rounded-full bg-purple-900/50 border-2 border-purple-500 flex items-center justify-center mb-3">
+                            <svg class="w-8 h-8 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                        </div>
+                        <h4 class="font-bold text-white">Payer Scale</h4>
+                        <p class="text-xs text-dark-muted mt-1">Enterprise contracts with insurers based on ROI data ($7:1 return).</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Clinic Outreach -->
+        <section id="clinic" class="mb-20 scroll-mt-20">
+            <h2 class="text-2xl font-bold mb-6 pb-2 border-b border-dark-border">2. Clinic Outreach Strategy</h2>
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
+                <!-- Target List -->
+                <div class="lg:col-span-2 glass-card rounded-xl p-6">
+                    <h3 class="font-semibold mb-4 text-brand-400">Tier 1 Targets (DFW Area)</h3>
+                    <div class="overflow-hidden rounded-lg border border-dark-border">
+                        <table class="min-w-full divide-y divide-dark-border">
+                            <thead class="bg-white/5">
+                                <tr>
+                                    <th class="px-4 py-3 text-left text-xs font-medium text-dark-muted uppercase">Clinic Name</th>
+                                    <th class="px-4 py-3 text-left text-xs font-medium text-dark-muted uppercase">Specialty</th>
+                                    <th class="px-4 py-3 text-left text-xs font-medium text-dark-muted uppercase">Key Driver</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-dark-border bg-transparent">
+                                <tr>
+                                    <td class="px-4 py-3 text-sm text-white">Lone Star Pulmonary</td>
+                                    <td class="px-4 py-3 text-sm text-dark-muted">Pulmonary/Sleep</td>
+                                    <td class="px-4 py-3 text-sm text-green-400">Comprehensive</td>
+                                </tr>
+                                <tr>
+                                    <td class="px-4 py-3 text-sm text-white">Fivestar Pulmonary</td>
+                                    <td class="px-4 py-3 text-sm text-dark-muted">Pulmonary</td>
+                                    <td class="px-4 py-3 text-sm text-green-400">Multi-location</td>
+                                </tr>
+                                <tr>
+                                    <td class="px-4 py-3 text-sm text-white">North Texas Kidney</td>
+                                    <td class="px-4 py-3 text-sm text-dark-muted">Nephrology</td>
+                                    <td class="px-4 py-3 text-sm text-green-400">Scale</td>
+                                </tr>
+                                <tr>
+                                    <td class="px-4 py-3 text-sm text-white">Denton Lung Doctor</td>
+                                    <td class="px-4 py-3 text-sm text-dark-muted">Pulmonary</td>
+                                    <td class="px-4 py-3 text-sm text-green-400">Quality Focus</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+                <!-- Value Prop -->
+                <div class="glass-card rounded-xl p-6 bg-gradient-to-br from-brand-900/20 to-transparent">
+                    <h3 class="font-semibold mb-4 text-white">The "Hook"</h3>
+                    <div class="text-3xl font-bold text-brand-400 mb-1">$200k+</div>
+                    <p class="text-sm text-dark-muted mb-6">New annual revenue per clinic via RTM/CCM automation.</p>
+                    
+                    <div class="text-3xl font-bold text-blue-400 mb-1">65%</div>
+                    <p class="text-sm text-dark-muted">Reduction in ER visits for enrolled patients.</p>
+                </div>
+            </div>
+            
+            <div class="p-4 rounded-lg bg-yellow-500/10 border border-yellow-500/30">
+                <h4 class="font-bold text-yellow-500 mb-2">Key Objection Handling</h4>
+                <p class="text-sm text-dark-muted"><strong class="text-white">"We have an EHR:"</strong> Focus on "Reasoning vs Alerts". EHRs give data; Ardia gives solutions.</p>
+                <p class="text-sm text-dark-muted mt-2"><strong class="text-white">"Too small:"</strong> Ardia is designed for independents. Revenue scales with patient volume.</p>
+            </div>
+        </section>
+
+        <!-- Section 3: Investor Strategy -->
+        <section id="investor" class="mb-20 scroll-mt-20">
+            <h2 class="text-2xl font-bold mb-6 pb-2 border-b border-dark-border">3. Investor & Funding Strategy</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+                <div>
+                    <h3 class="text-lg font-semibold mb-4 text-white">Target Investor Profiles</h3>
+                    <div class="space-y-4">
+                        <div class="p-4 rounded-lg bg-white/5 border-l-4 border-brand-500">
+                            <h4 class="font-bold">MedTech Specialists (DFW)</h4>
+                            <p class="text-sm text-dark-muted mb-2">Scientific Health Development, Green Park & Golf.</p>
+                            <span class="text-xs bg-brand-500/20 text-brand-300 px-2 py-1 rounded">Thesis: Clinical Utility</span>
+                        </div>
+                        <div class="p-4 rounded-lg bg-white/5 border-l-4 border-blue-500">
+                            <h4 class="font-bold">National Leaders</h4>
+                            <p class="text-sm text-dark-muted mb-2">Andreessen Horowitz, Rock Health.</p>
+                            <span class="text-xs bg-blue-500/20 text-blue-300 px-2 py-1 rounded">Thesis: Digital Transformation</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-semibold mb-4 text-white">The "Ask" Structure</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <span class="w-6 h-6 rounded-full bg-brand-900/50 text-brand-400 flex items-center justify-center text-xs mr-3 flex-shrink-0">1</span>
+                            <p class="text-sm text-dark-muted"><strong class="text-white">Problem:</strong> Independent clinics are drowning in admin work and failing at chronic care.</p>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="w-6 h-6 rounded-full bg-brand-900/50 text-brand-400 flex items-center justify-center text-xs mr-3 flex-shrink-0">2</span>
+                            <p class="text-sm text-dark-muted"><strong class="text-white">Solution:</strong> Clinical Intelligence Engine. Reasoning, not alerting.</p>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="w-6 h-6 rounded-full bg-brand-900/50 text-brand-400 flex items-center justify-center text-xs mr-3 flex-shrink-0">3</span>
+                            <p class="text-sm text-dark-muted"><strong class="text-white">Traction:</strong> Pilots with Tier 1 clinics. Proven ROI model.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Payer Engagement -->
+        <section id="payer" class="mb-20 scroll-mt-20">
+            <h2 class="text-2xl font-bold mb-6 pb-2 border-b border-dark-border">4. Payer Engagement</h2>
+            
+            <div class="glass-card rounded-xl p-8 mb-8">
+                <h3 class="text-lg font-semibold mb-6">Engagement Phases</h3>
+                <div class="relative">
+                    <!-- Line -->
+                    <div class="absolute top-4 left-0 right-0 h-1 bg-dark-border"></div>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-5 gap-4 relative">
+                        <div class="text-center pt-8 relative">
+                            <div class="absolute top-2 left-1/2 transform -translate-x-1/2 w-5 h-5 rounded-full bg-dark-bg border-4 border-brand-500"></div>
+                            <h4 class="font-bold text-sm text-white">Outreach</h4>
+                            <p class="text-xs text-dark-muted mt-1">Days 1-30</p>
+                        </div>
+                        <div class="text-center pt-8 relative">
+                            <div class="absolute top-2 left-1/2 transform -translate-x-1/2 w-5 h-5 rounded-full bg-dark-bg border-4 border-dark-border"></div>
+                            <h4 class="font-bold text-sm text-white">Value Prop</h4>
+                            <p class="text-xs text-dark-muted mt-1">Days 31-60</p>
+                        </div>
+                        <div class="text-center pt-8 relative">
+                            <div class="absolute top-2 left-1/2 transform -translate-x-1/2 w-5 h-5 rounded-full bg-dark-bg border-4 border-dark-border"></div>
+                            <h4 class="font-bold text-sm text-white">Pilot Design</h4>
+                            <p class="text-xs text-dark-muted mt-1">Days 61-120</p>
+                        </div>
+                        <div class="text-center pt-8 relative">
+                            <div class="absolute top-2 left-1/2 transform -translate-x-1/2 w-5 h-5 rounded-full bg-dark-bg border-4 border-dark-border"></div>
+                            <h4 class="font-bold text-sm text-white">Implement</h4>
+                            <p class="text-xs text-dark-muted mt-1">Days 121-240</p>
+                        </div>
+                        <div class="text-center pt-8 relative">
+                            <div class="absolute top-2 left-1/2 transform -translate-x-1/2 w-5 h-5 rounded-full bg-dark-bg border-4 border-dark-border"></div>
+                            <h4 class="font-bold text-sm text-white">Expand</h4>
+                            <p class="text-xs text-dark-muted mt-1">Days 241+</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="p-6 bg-blue-900/20 border border-blue-500/30 rounded-xl">
+                <h3 class="text-lg font-bold text-blue-400 mb-2">The ROI Argument</h3>
+                <p class="text-dark-muted mb-4">Payers care about financial returns and risk reduction.</p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
+                    <div class="p-3 bg-dark-bg/50 rounded-lg">
+                        <div class="text-xl font-bold text-white">$7 : $1</div>
+                        <div class="text-xs text-dark-muted">Return on Investment</div>
+                    </div>
+                    <div class="p-3 bg-dark-bg/50 rounded-lg">
+                        <div class="text-xl font-bold text-white">25%</div>
+                        <div class="text-xs text-dark-muted">Reduced Hospital Stays</div>
+                    </div>
+                    <div class="p-3 bg-dark-bg/50 rounded-lg">
+                        <div class="text-xl font-bold text-white">91%</div>
+                        <div class="text-xs text-dark-muted">Lower Facility Discharges</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 5: Roadmap -->
+        <section id="roadmap" class="mb-20 scroll-mt-20">
+            <h2 class="text-2xl font-bold mb-8 pb-2 border-b border-dark-border">5. 365-Day Execution Roadmap</h2>
+            
+            <div class="relative pl-12">
+                <div class="timeline-line"></div>
+                
+                <!-- Q1 -->
+                <div class="mb-10 relative">
+                    <div class="timeline-dot bg-brand-500"></div>
+                    <h3 class="text-lg font-bold text-brand-400 mb-2">Immediate Priorities (Days 1-90)</h3>
+                    <div class="glass-card p-4 rounded-lg border border-brand-500/20">
+                        <ul class="space-y-2 text-sm text-dark-muted">
+                            <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-brand-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Complete stakeholder mapping for Top 10 clinics</li>
+                            <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-brand-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Initiate outreach to 5 priority investors</li>
+                            <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-brand-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Apply to Health Wildcatters</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Q2 -->
+                <div class="mb-10 relative">
+                    <div class="timeline-dot bg-blue-500"></div>
+                    <h3 class="text-lg font-bold text-blue-400 mb-2">Short Term (Days 91-180)</h3>
+                    <div class="glass-card p-4 rounded-lg border border-blue-500/20">
+                        <ul class="space-y-2 text-sm text-dark-muted">
+                            <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Secure 1-2 Clinic Pilot Agreements</li>
+                            <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Complete 10 Investor Presentations</li>
+                            <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Secure Term Sheet</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Q3/4 -->
+                <div class="mb-10 relative">
+                    <div class="timeline-dot bg-purple-500"></div>
+                    <h3 class="text-lg font-bold text-purple-400 mb-2">Medium Term (Days 181-365)</h3>
+                    <div class="glass-card p-4 rounded-lg border border-purple-500/20">
+                        <ul class="space-y-2 text-sm text-dark-muted">
+                            <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Execute Clinic Pilots & Publish Outcomes</li>
+                            <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Advance to Production Deployment</li>
+                            <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Close Funding Round</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="border-t border-dark-border pt-8 mt-12 mb-8">
+            <div class="flex items-center justify-between text-sm text-dark-muted">
+                <span>&copy; 2025 Ardia Health</span>
+                <span class="px-2 py-1 rounded bg-white/5 border border-white/10">Internal Strategic Document</span>
+            </div>
+        </footer>
+
+    </main>
+    
+    <script>
+        // Simple script to handle active link highlighting
+        window.addEventListener('scroll', () => {
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('.sidebar-link');
+            
+            let current = '';
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                if (pageYOffset >= sectionTop - 100) {
+                    current = section.getAttribute('id');
+                }
+            });
+            
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').includes(current)) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
