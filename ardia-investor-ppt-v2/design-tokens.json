@@ -1,0 +1,39 @@
+{
+  "colors": {
+    "background": "#121212",
+    "surface": "#1E1E1E",
+    "surfaceBorder": "#2D2D2D",
+    "text": {
+      "primary": "#E8E8E8",
+      "secondary": "#B3B3B3",
+      "accent": "#8BAFD0",
+      "success": "#66BB6A",
+      "warning": "#FFA726",
+      "error": "#EF5350"
+    },
+    "chart": {
+      "primary": "#8BAFD0",
+      "secondary": "#4E7C9E",
+      "tertiary": "#2C4A63",
+      "success": "#66BB6A"
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "headings": "'Montserrat', sans-serif",
+      "body": "'Inter', sans-serif"
+    },
+    "size": {
+      "hero": "96px",
+      "h1": "64px",
+      "h2": "48px",
+      "h3": "32px",
+      "body": "24px",
+      "caption": "16px"
+    }
+  },
+  "spacing": {
+    "padding": "64px",
+    "gap": "32px"
+  }
+}

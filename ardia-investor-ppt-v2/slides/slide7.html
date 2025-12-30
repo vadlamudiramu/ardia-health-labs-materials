@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1280, height=720, initial-scale=1.0">
+    <title>ArdiA Health Labs - Technology</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            width: 1280px;
+            height: 720px;
+            background-color: #121212;
+            color: #E8E8E8;
+            font-family: 'Inter', sans-serif;
+            overflow: hidden;
+            display: flex;
+        }
+
+        .content-col {
+            flex: 1;
+            padding: 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 48px;
+            font-weight: 700;
+            margin: 0 0 16px 0;
+            color: #E8E8E8;
+        }
+
+        .subtitle {
+            font-size: 24px;
+            color: #B3B3B3;
+            margin-bottom: 64px;
+            max-width: 800px;
+        }
+
+        .tech-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 48px;
+        }
+
+        .tech-item h3 {
+            font-size: 24px;
+            color: #8BAFD0;
+            margin: 16px 0 8px 0;
+            font-weight: 600;
+        }
+
+        .tech-item p {
+            font-size: 16px;
+            color: #B3B3B3;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        .icon-box {
+            width: 48px;
+            height: 48px;
+            background: rgba(139, 175, 208, 0.1);
+            border: 1px solid #2C4A63;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #8BAFD0;
+        }
+        
+        .visual-side {
+            width: 40%;
+            background: #1E1E1E;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .code-bg {
+            font-family: 'Courier New', monospace;
+            color: rgba(139, 175, 208, 0.1);
+            font-size: 14px;
+            position: absolute;
+            top: 0; left: 0;
+            padding: 20px;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+    <div class="content-col">
+        <h2>Under the Hood</h2>
+        <div class="subtitle">Proprietary technology stack designed for clinical reasoning, not just data aggregation.</div>
+
+        <div class="tech-grid">
+            <div class="tech-item">
+                <div class="icon-box"><i data-lucide="mic-2"></i></div>
+                <h3>Voice Biomarker Analysis</h3>
+                <p>Detects early signs of respiratory distress, depression, and cognitive decline from voice samples collected via patient app.</p>
+            </div>
+
+            <div class="tech-item">
+                <div class="icon-box"><i data-lucide="git-merge"></i></div>
+                <h3>Multi-Modal Fusion</h3>
+                <p>Combines structured EHR data with unstructured notes and continuous wearable streams for a holistic view.</p>
+            </div>
+
+            <div class="tech-item">
+                <div class="icon-box"><i data-lucide="shield-check"></i></div>
+                <h3>Explainable AI (XAI)</h3>
+                <p>Provides "reasoning trails" for every alert, building clinician trust by showing exactly why a prediction was made.</p>
+            </div>
+
+            <div class="tech-item">
+                <div class="icon-box"><i data-lucide="lock"></i></div>
+                <h3>HIPAA-Compliant Edge</h3>
+                <p>Processes sensitive data locally on devices where possible to maximize privacy and reduce latency.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="visual-side">
+        <div class="code-bg">
+            import tensorflow as tf<br>
+            from ardia_core.models import ClinicalReasoning<br>
+            <br>
+            class PatientMonitor(tf.keras.Model):<br>
+                def __init__(self):<br>
+                    super(PatientMonitor, self).__init__()<br>
+                    self.fusion_layer = FusionLayer(units=128)<br>
+                    self.reasoning = ClinicalReasoning()<br>
+            <br>
+            # Voice Processing<br>
+            audio_stream = load_stream(patient_id)<br>
+            biomarkers = extract_features(audio_stream)<br>
+            <br>
+            # Alert Generation<br>
+            if risk_score > THRESHOLD:<br>
+                generate_alert(context=patient_history)<br>
+                explain_decision(features=biomarkers)<br>
+        </div>
+        <i data-lucide="cpu" size="200" style="color: #8BAFD0; opacity: 0.8; filter: drop-shadow(0 0 20px rgba(139,175,208,0.5));"></i>
+    </div>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

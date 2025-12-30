@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1280, height=720, initial-scale=1.0">
+    <title>ArdiA Health Labs - Investment</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 80px;
+            width: 1280px;
+            height: 720px;
+            box-sizing: border-box;
+            background-color: #121212;
+            color: #E8E8E8;
+            font-family: 'Inter', sans-serif;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+        }
+
+        .left-col {
+            flex: 1;
+            padding-right: 64px;
+        }
+
+        .right-col {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 48px;
+            font-weight: 700;
+            margin: 0 0 32px 0;
+            color: #E8E8E8;
+        }
+
+        .ask-amount {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 96px;
+            font-weight: 700;
+            color: #8BAFD0;
+            margin-bottom: 32px;
+            line-height: 1;
+        }
+
+        .use-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .use-item {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 24px;
+            font-size: 20px;
+            color: #B3B3B3;
+        }
+
+        .legend-color {
+            width: 16px;
+            height: 16px;
+            border-radius: 4px;
+        }
+
+        .chart-container {
+            width: 400px;
+            height: 400px;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <div class="left-col">
+        <h2>The Ask</h2>
+        <div class="ask-amount">$2.5M</div>
+        <div style="font-size: 24px; color: #E8E8E8; margin-bottom: 48px;">Seed Round Financing</div>
+
+        <ul class="use-list">
+            <li class="use-item">
+                <div class="legend-color" style="background: #8BAFD0;"></div>
+                Product Development (45%)
+            </li>
+            <li class="use-item">
+                <div class="legend-color" style="background: #66BB6A;"></div>
+                Sales & Marketing (30%)
+            </li>
+            <li class="use-item">
+                <div class="legend-color" style="background: #EF5350;"></div>
+                Clinical Operations (15%)
+            </li>
+            <li class="use-item">
+                <div class="legend-color" style="background: #FFA726;"></div>
+                G&A / Legal (10%)
+            </li>
+        </ul>
+    </div>
+
+    <div class="right-col">
+        <div class="chart-container">
+            <canvas id="useOfFundsChart"></canvas>
+        </div>
+    </div>
+
+    <script>
+        lucide.createIcons();
+
+        // Chart.js rendering
+        const ctx = document.getElementById('useOfFundsChart').getContext('2d');
+        new Chart(ctx, {
+            type: 'doughnut',
+            data: {
+                labels: ['Product', 'Sales', 'Ops', 'G&A'],
+                datasets: [{
+                    data: [45, 30, 15, 10],
+                    backgroundColor: [
+                        '#8BAFD0',
+                        '#66BB6A',
+                        '#EF5350',
+                        '#FFA726'
+                    ],
+                    borderWidth: 0,
+                    hoverOffset: 4
+                }]
+            },
+            options: {
+                responsive: true,
+                cutout: '70%',
+                plugins: {
+                    legend: { display: false }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

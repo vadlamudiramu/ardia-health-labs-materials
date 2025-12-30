@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1280, height=720, initial-scale=1.0">
+    <title>ArdiA Health Labs - Metrics</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 80px;
+            width: 1280px;
+            height: 720px;
+            box-sizing: border-box;
+            background-color: #121212;
+            color: #E8E8E8;
+            font-family: 'Inter', sans-serif;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 48px;
+            font-weight: 700;
+            margin: 0 0 80px 0;
+            text-align: center;
+        }
+
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 32px;
+            flex: 1;
+        }
+
+        .metric-card {
+            background: #1E1E1E;
+            border: 1px solid #2D2D2D;
+            border-radius: 16px;
+            padding: 32px;
+            display: flex;
+            align-items: center;
+            gap: 32px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .metric-card::after {
+            content: '';
+            position: absolute;
+            right: 0; top: 0; bottom: 0;
+            width: 100px;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.02));
+        }
+
+        .val-container {
+            min-width: 220px;
+        }
+
+        .value {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 64px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .green { color: #66BB6A; }
+        .blue { color: #8BAFD0; }
+        
+        .label {
+            font-size: 20px;
+            font-weight: 600;
+            color: #E8E8E8;
+            margin-bottom: 8px;
+        }
+
+        .subtext {
+            font-size: 16px;
+            color: #B3B3B3;
+        }
+
+        .trend-icon {
+            position: absolute;
+            right: 32px;
+            top: 32px;
+            opacity: 0.2;
+        }
+    </style>
+</head>
+<body>
+    <h2>Projected Impact (Year 1)</h2>
+
+    <div class="metrics-grid">
+        <!-- Revenue -->
+        <div class="metric-card">
+            <div class="val-container">
+                <div class="value blue">$8.1M</div>
+            </div>
+            <div>
+                <div class="label">Projected ARR</div>
+                <div class="subtext">Based on 3 signed contracts and pipeline conversion.</div>
+            </div>
+            <i data-lucide="trending-up" size="64" class="trend-icon" style="color:#8BAFD0"></i>
+        </div>
+
+        <!-- Cost Reduction -->
+        <div class="metric-card">
+            <div class="val-container">
+                <div class="value green">-74%</div>
+            </div>
+            <div>
+                <div class="label">Admin Cost Reduction</div>
+                <div class="subtext">For providers using our automated documentation.</div>
+            </div>
+            <i data-lucide="arrow-down-circle" size="64" class="trend-icon" style="color:#66BB6A"></i>
+        </div>
+
+        <!-- Readmissions -->
+        <div class="metric-card">
+            <div class="val-container">
+                <div class="value green">-30%</div>
+            </div>
+            <div>
+                <div class="label">Hospital Readmissions</div>
+                <div class="subtext">Target reduction for CHF/COPD cohorts.</div>
+            </div>
+            <i data-lucide="activity" size="64" class="trend-icon" style="color:#66BB6A"></i>
+        </div>
+
+        <!-- Engagement -->
+        <div class="metric-card">
+            <div class="val-container">
+                <div class="value blue">85%</div>
+            </div>
+            <div>
+                <div class="label">Patient Engagement</div>
+                <div class="subtext">Daily active usage of the ArdiA app.</div>
+            </div>
+            <i data-lucide="users" size="64" class="trend-icon" style="color:#8BAFD0"></i>
+        </div>
+    </div>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

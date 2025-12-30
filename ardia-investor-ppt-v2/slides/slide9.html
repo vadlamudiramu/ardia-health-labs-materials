@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1280, height=720, initial-scale=1.0">
+    <title>ArdiA Health Labs - Business Model</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 80px;
+            width: 1280px;
+            height: 720px;
+            box-sizing: border-box;
+            background-color: #121212;
+            color: #E8E8E8;
+            font-family: 'Inter', sans-serif;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 48px;
+            font-weight: 700;
+            margin: 0 0 64px 0;
+            text-align: center;
+        }
+
+        .cards-container {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            height: 450px;
+            align-items: stretch;
+        }
+
+        .model-card {
+            flex: 1;
+            max-width: 350px;
+            background: #1E1E1E;
+            border: 1px solid #2D2D2D;
+            border-radius: 16px;
+            padding: 40px 32px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        
+        .model-card:hover {
+            transform: translateY(-10px);
+            border-color: #8BAFD0;
+        }
+
+        .icon-box {
+            width: 80px;
+            height: 80px;
+            background: #121212;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 32px;
+            border: 1px solid #333;
+        }
+
+        .card-title {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 16px;
+            color: #E8E8E8;
+        }
+
+        .price {
+            font-size: 32px;
+            font-weight: 700;
+            color: #8BAFD0;
+            margin-bottom: 8px;
+        }
+
+        .unit {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 24px;
+            text-transform: uppercase;
+        }
+
+        .features {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            text-align: left;
+        }
+
+        .features li {
+            padding: 8px 0;
+            border-bottom: 1px solid #2D2D2D;
+            font-size: 14px;
+            color: #B3B3B3;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .features li:last-child { border-bottom: none; }
+    </style>
+</head>
+<body>
+    <h2>Business Model</h2>
+
+    <div class="cards-container">
+        <!-- SaaS -->
+        <div class="model-card">
+            <div class="icon-box">
+                <i data-lucide="server" size="32" color="#8BAFD0"></i>
+            </div>
+            <div class="card-title">Provider Platform</div>
+            <div class="price">SaaS</div>
+            <div class="unit">Annual Licensing Fee</div>
+            
+            <ul class="features">
+                <li><i data-lucide="check" size="14" color="#66BB6A"></i> Unlimited users</li>
+                <li><i data-lucide="check" size="14" color="#66BB6A"></i> EHR Integration</li>
+                <li><i data-lucide="check" size="14" color="#66BB6A"></i> Population Health Dashboard</li>
+            </ul>
+        </div>
+
+        <!-- PMPM -->
+        <div class="model-card" style="background: linear-gradient(180deg, #1E1E1E 0%, #232830 100%); border-color: #444;">
+            <div class="icon-box" style="background: #232830; border-color: #8BAFD0;">
+                <i data-lucide="users" size="32" color="#8BAFD0"></i>
+            </div>
+            <div class="card-title">Patient Monitoring</div>
+            <div class="price">$50</div>
+            <div class="unit">Per Patient / Per Month (PMPM)</div>
+            
+            <ul class="features">
+                <li><i data-lucide="check" size="14" color="#66BB6A"></i> RPM CPT Code Eligible</li>
+                <li><i data-lucide="check" size="14" color="#66BB6A"></i> 24/7 AI Monitoring</li>
+                <li><i data-lucide="check" size="14" color="#66BB6A"></i> Patient App Access</li>
+            </ul>
+        </div>
+
+        <!-- Shared Savings -->
+        <div class="model-card">
+            <div class="icon-box">
+                <i data-lucide="trending-down" size="32" color="#8BAFD0"></i>
+            </div>
+            <div class="card-title">Value-Based Care</div>
+            <div class="price">%</div>
+            <div class="unit">Shared Savings</div>
+            
+            <ul class="features">
+                <li><i data-lucide="check" size="14" color="#66BB6A"></i> Reduced Readmissions</li>
+                <li><i data-lucide="check" size="14" color="#66BB6A"></i> Lower Cost of Care</li>
+                <li><i data-lucide="check" size="14" color="#66BB6A"></i> Risk-Sharing Partnerships</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

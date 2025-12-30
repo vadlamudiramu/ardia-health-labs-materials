@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1280, height=720, initial-scale=1.0">
+    <title>ArdiA Health Labs - Contact</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            width: 1280px;
+            height: 720px;
+            background-color: #121212;
+            color: #E8E8E8;
+            font-family: 'Inter', sans-serif;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .bg-gradient {
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: radial-gradient(circle at 50% 50%, rgba(139, 175, 208, 0.05) 0%, #121212 70%);
+            z-index: 0;
+        }
+
+        .content-box {
+            z-index: 1;
+            text-align: center;
+            background: #1E1E1E;
+            padding: 64px 80px;
+            border-radius: 24px;
+            border: 1px solid #2D2D2D;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+        }
+
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 56px;
+            font-weight: 700;
+            margin: 0 0 16px 0;
+            color: #E8E8E8;
+        }
+
+        .tagline {
+            font-size: 24px;
+            color: #8BAFD0;
+            margin-bottom: 48px;
+            font-weight: 500;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            align-items: center;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            font-size: 20px;
+            color: #B3B3B3;
+            transition: color 0.3s;
+        }
+
+        .contact-item:hover { color: #8BAFD0; }
+
+        .website-btn {
+            margin-top: 32px;
+            padding: 16px 40px;
+            background: #8BAFD0;
+            color: #121212;
+            font-weight: 700;
+            font-size: 18px;
+            border-radius: 100px;
+            text-decoration: none;
+            display: inline-block;
+            transition: transform 0.2s;
+        }
+
+        .website-btn:hover {
+            transform: scale(1.05);
+            background: #A3C9EA;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-gradient"></div>
+
+    <div class="content-box">
+        <h2>Join Us</h2>
+        <div class="tagline">Redefining Clinical Intelligence</div>
+
+        <div class="contact-info">
+            <div class="contact-item">
+                <i data-lucide="user" size="24"></i>
+                <span style="font-weight:600; color:#E8E8E8;">Ram Vadlamudi</span>
+                <span style="color:#666;">|</span>
+                <span>Founder</span>
+            </div>
+
+            <div class="contact-item">
+                <i data-lucide="mail" size="24"></i>
+                ram.vadlamudi@ardiahealthlabs.com
+            </div>
+
+            <div class="contact-item">
+                <i data-lucide="phone" size="24"></i>
+                +1 (469) 679-3334
+            </div>
+        </div>
+
+        <a href="https://ardiahealthlabs.com" class="website-btn">ardiahealthlabs.com</a>
+    </div>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

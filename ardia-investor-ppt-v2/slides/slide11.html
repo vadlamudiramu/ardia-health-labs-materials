@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1280, height=720, initial-scale=1.0">
+    <title>ArdiA Health Labs - Competition</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 80px;
+            width: 1280px;
+            height: 720px;
+            box-sizing: border-box;
+            background-color: #121212;
+            color: #E8E8E8;
+            font-family: 'Inter', sans-serif;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 48px;
+            font-weight: 700;
+            margin: 0 0 64px 0;
+            text-align: center;
+        }
+
+        .matrix-container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .row {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            align-items: center;
+            padding: 24px;
+            border-bottom: 1px solid #2D2D2D;
+        }
+
+        .header-row {
+            background: #1E1E1E;
+            border-radius: 12px;
+            border: none;
+            padding: 32px 24px;
+            margin-bottom: 16px;
+        }
+
+        .header-col {
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 18px;
+            color: #B3B3B3;
+        }
+
+        .header-col.us {
+            color: #8BAFD0;
+            font-size: 24px;
+        }
+
+        .feature-col {
+            font-size: 20px;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .check-col {
+            display: flex;
+            justify-content: center;
+        }
+
+        .check-icon { color: #66BB6A; }
+        .x-icon { color: #EF5350; opacity: 0.5; }
+        .dash-icon { color: #B3B3B3; opacity: 0.5; }
+
+        .ardia-col {
+            background: rgba(139, 175, 208, 0.05);
+            border-radius: 8px;
+            margin: -16px 0;
+            padding: 16px 0;
+        }
+    </style>
+</head>
+<body>
+    <h2>Competitive Advantage</h2>
+
+    <div class="matrix-container">
+        <!-- Headers -->
+        <div class="row header-row">
+            <div class="header-col" style="text-align:left; font-size:16px;">CAPABILITY</div>
+            <div class="header-col">Traditional RPM</div>
+            <div class="header-col">Generic AI Scribes</div>
+            <div class="header-col us">ArdiA Health</div>
+        </div>
+
+        <!-- Rows -->
+        <div class="row">
+            <div class="feature-col">
+                <i data-lucide="database" size="20" color="#666"></i>
+                EHR Integration
+            </div>
+            <div class="check-col"><i data-lucide="check" class="check-icon"></i></div>
+            <div class="check-col"><i data-lucide="minus" class="dash-icon"></i></div>
+            <div class="check-col ardia-col"><i data-lucide="check-circle-2" class="check-icon" fill="rgba(102,187,106,0.2)"></i></div>
+        </div>
+
+        <div class="row">
+            <div class="feature-col">
+                <i data-lucide="mic" size="20" color="#666"></i>
+                Voice Biomarkers
+            </div>
+            <div class="check-col"><i data-lucide="x" class="x-icon"></i></div>
+            <div class="check-col"><i data-lucide="check" class="check-icon"></i></div>
+            <div class="check-col ardia-col"><i data-lucide="check-circle-2" class="check-icon" fill="rgba(102,187,106,0.2)"></i></div>
+        </div>
+
+        <div class="row">
+            <div class="feature-col">
+                <i data-lucide="brain-circuit" size="20" color="#666"></i>
+                Clinical Reasoning
+            </div>
+            <div class="check-col"><i data-lucide="x" class="x-icon"></i></div>
+            <div class="check-col"><i data-lucide="x" class="x-icon"></i></div>
+            <div class="check-col ardia-col"><i data-lucide="check-circle-2" class="check-icon" fill="rgba(102,187,106,0.2)"></i></div>
+        </div>
+
+        <div class="row">
+            <div class="feature-col">
+                <i data-lucide="activity" size="20" color="#666"></i>
+                Predictive Alerts
+            </div>
+            <div class="check-col"><i data-lucide="minus" class="dash-icon"></i></div>
+            <div class="check-col"><i data-lucide="x" class="x-icon"></i></div>
+            <div class="check-col ardia-col"><i data-lucide="check-circle-2" class="check-icon" fill="rgba(102,187,106,0.2)"></i></div>
+        </div>
+
+        <div class="row" style="border-bottom:none;">
+            <div class="feature-col">
+                <i data-lucide="lock" size="20" color="#666"></i>
+                Closed-Loop Learning
+            </div>
+            <div class="check-col"><i data-lucide="x" class="x-icon"></i></div>
+            <div class="check-col"><i data-lucide="minus" class="dash-icon"></i></div>
+            <div class="check-col ardia-col"><i data-lucide="check-circle-2" class="check-icon" fill="rgba(102,187,106,0.2)"></i></div>
+        </div>
+    </div>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1280, height=720, initial-scale=1.0">
+    <title>ArdiA Health Labs - Architecture</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 40px;
+            width: 1280px;
+            height: 720px;
+            box-sizing: border-box;
+            background-color: #121212;
+            color: #E8E8E8;
+            font-family: 'Inter', sans-serif;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 36px;
+            font-weight: 700;
+            margin: 0 0 40px 0;
+            text-align: center;
+        }
+
+        .architecture-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 48px;
+            height: 550px;
+            position: relative;
+        }
+
+        .column {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            width: 280px;
+            padding: 24px;
+            background: rgba(30, 30, 30, 0.3);
+            border: 1px dashed #444;
+            border-radius: 16px;
+            position: relative;
+        }
+
+        .column-title {
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            color: #8BAFD0;
+            margin-bottom: 16px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .component-box {
+            background: #1E1E1E;
+            border: 1px solid #2D2D2D;
+            border-radius: 8px;
+            padding: 16px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 14px;
+            color: #E8E8E8;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        .engine-box {
+            width: 320px;
+            height: 450px;
+            background: linear-gradient(135deg, #1E1E1E 0%, #252A30 100%);
+            border: 2px solid #8BAFD0;
+            border-radius: 24px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 32px;
+            box-sizing: border-box;
+            position: relative;
+            box-shadow: 0 0 40px rgba(139, 175, 208, 0.15);
+            z-index: 2;
+        }
+
+        .engine-core {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: radial-gradient(circle at center, #2C4A63 0%, #1E1E1E 70%);
+            border: 1px solid #8BAFD0;
+            margin: 32px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: pulse 3s infinite;
+        }
+
+        .engine-layer {
+            width: 100%;
+            padding: 12px;
+            background: rgba(139, 175, 208, 0.1);
+            border-radius: 8px;
+            margin-bottom: 8px;
+            text-align: center;
+            font-size: 14px;
+            color: #B3B3B3;
+        }
+
+        /* Arrows */
+        .arrow-right {
+            position: absolute;
+            color: #8BAFD0;
+            opacity: 0.5;
+        }
+        
+        @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 rgba(139, 175, 208, 0.4); }
+            70% { box-shadow: 0 0 0 20px rgba(139, 175, 208, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(139, 175, 208, 0); }
+        }
+    </style>
+</head>
+<body>
+    <h2>System Architecture</h2>
+
+    <div class="architecture-container">
+        <!-- Input Column -->
+        <div class="column">
+            <div class="column-title">Data Sources</div>
+            <div class="component-box">
+                <i data-lucide="watch" size="20" style="color:#8BAFD0"></i>
+                Wearables (Fitbit, Apple)
+            </div>
+            <div class="component-box">
+                <i data-lucide="file-text" size="20" style="color:#8BAFD0"></i>
+                EHR / EMR Records
+            </div>
+            <div class="component-box">
+                <i data-lucide="thermometer" size="20" style="color:#8BAFD0"></i>
+                Environmental Sensors
+            </div>
+            <div class="component-box">
+                <i data-lucide="mic" size="20" style="color:#8BAFD0"></i>
+                Voice Biomarkers
+            </div>
+        </div>
+
+        <!-- Arrow -->
+        <i data-lucide="arrow-right" class="arrow-right" style="left: 310px; top: 50%;"></i>
+
+        <!-- Core Engine -->
+        <div class="engine-box">
+            <div class="column-title" style="margin-bottom:8px">Clinical Reasoning<br>Engine</div>
+            <div style="font-size:12px; color:#666; margin-bottom:16px;">AI/ML CORE</div>
+            
+            <div class="engine-layer">Normalization Layer</div>
+            <div class="engine-layer">Feature Extraction</div>
+            
+            <div class="engine-core">
+                <i data-lucide="brain-circuit" size="48" style="color:#8BAFD0"></i>
+            </div>
+
+            <div class="engine-layer">Risk Prediction Model</div>
+            <div class="engine-layer">Decision Support</div>
+        </div>
+
+        <!-- Arrow -->
+        <i data-lucide="arrow-right" class="arrow-right" style="right: 310px; top: 50%;"></i>
+
+        <!-- Output Column -->
+        <div class="column">
+            <div class="column-title">Outputs</div>
+            <div class="component-box">
+                <i data-lucide="smartphone" size="20" style="color:#66BB6A"></i>
+                Patient Mobile App
+            </div>
+            <div class="component-box">
+                <i data-lucide="monitor" size="20" style="color:#66BB6A"></i>
+                Provider Dashboard
+            </div>
+            <div class="component-box">
+                <i data-lucide="bar-chart-2" size="20" style="color:#66BB6A"></i>
+                Payer Analytics
+            </div>
+            <div class="component-box">
+                <i data-lucide="bell" size="20" style="color:#66BB6A"></i>
+                Care Team Alerts
+            </div>
+        </div>
+    </div>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

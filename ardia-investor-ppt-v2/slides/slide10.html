@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1280, height=720, initial-scale=1.0">
+    <title>ArdiA Health Labs - Stakeholder Value</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 64px;
+            width: 1280px;
+            height: 720px;
+            box-sizing: border-box;
+            background-color: #121212;
+            color: #E8E8E8;
+            font-family: 'Inter', sans-serif;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 42px;
+            font-weight: 700;
+            margin: 0 0 48px 0;
+            text-align: center;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32px;
+            flex: 1;
+        }
+
+        .stakeholder-card {
+            background-color: #1E1E1E;
+            border-radius: 16px;
+            padding: 32px;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .stakeholder-card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 4px;
+            background: #8BAFD0;
+            opacity: 0.5;
+        }
+
+        .icon-header {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+
+        .card-icon {
+            width: 56px;
+            height: 56px;
+            background: rgba(139, 175, 208, 0.1);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #8BAFD0;
+        }
+
+        .card-title {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        .metric-box {
+            background: rgba(0,0,0,0.2);
+            padding: 16px;
+            border-radius: 8px;
+            margin-bottom: 24px;
+            text-align: center;
+        }
+
+        .metric-val {
+            font-size: 32px;
+            font-weight: 700;
+            color: #66BB6A; /* Success green */
+            margin-bottom: 4px;
+        }
+
+        .metric-label {
+            font-size: 12px;
+            color: #B3B3B3;
+            text-transform: uppercase;
+        }
+
+        .desc-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .desc-list li {
+            margin-bottom: 12px;
+            font-size: 15px;
+            color: #B3B3B3;
+            display: flex;
+            gap: 10px;
+        }
+
+        .bullet {
+            color: #8BAFD0;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h2>Value Across the Ecosystem</h2>
+
+    <div class="grid">
+        <!-- Patients -->
+        <div class="stakeholder-card">
+            <div class="icon-header">
+                <div class="card-icon"><i data-lucide="user"></i></div>
+                <div class="card-title">Patients</div>
+            </div>
+            
+            <div class="metric-box">
+                <div class="metric-val">24/7</div>
+                <div class="metric-label">Peace of Mind</div>
+            </div>
+
+            <ul class="desc-list">
+                <li><span class="bullet">•</span> Personalized care plans in pocket</li>
+                <li><span class="bullet">•</span> Early detection before crisis</li>
+                <li><span class="bullet">•</span> Reduced anxiety via continuous monitoring</li>
+            </ul>
+        </div>
+
+        <!-- Providers -->
+        <div class="stakeholder-card">
+            <div class="icon-header">
+                <div class="card-icon"><i data-lucide="stethoscope"></i></div>
+                <div class="card-title">Providers</div>
+            </div>
+
+            <div class="metric-box">
+                <div class="metric-val">-40%</div>
+                <div class="metric-label">Admin Time</div>
+            </div>
+
+            <ul class="desc-list">
+                <li><span class="bullet">•</span> Automated documentation & coding</li>
+                <li><span class="bullet">•</span> Prioritized patient lists (sickest first)</li>
+                <li><span class="bullet">•</span> New revenue streams (RPM/CCM)</li>
+            </ul>
+        </div>
+
+        <!-- Payers -->
+        <div class="stakeholder-card">
+            <div class="icon-header">
+                <div class="card-icon"><i data-lucide="building-2"></i></div>
+                <div class="card-title">Payers</div>
+            </div>
+
+            <div class="metric-box">
+                <div class="metric-val">$8k</div>
+                <div class="metric-label">Saved Per Patient/Yr</div>
+            </div>
+
+            <ul class="desc-list">
+                <li><span class="bullet">•</span> Reduced ER visits & readmissions</li>
+                <li><span class="bullet">•</span> Lower long-term chronic care costs</li>
+                <li><span class="bullet">•</span> Improved HEDIS & Star Ratings</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

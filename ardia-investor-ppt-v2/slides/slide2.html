@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1280, height=720, initial-scale=1.0">
+    <title>ArdiA Health Labs - Problem</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            width: 1280px;
+            height: 720px;
+            background-color: #121212;
+            color: #E8E8E8;
+            font-family: 'Inter', sans-serif;
+            overflow: hidden;
+            display: flex;
+        }
+
+        .left-col {
+            width: 45%;
+            padding: 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background: linear-gradient(90deg, #121212 0%, #161616 100%);
+            z-index: 2;
+        }
+
+        .right-col {
+            width: 55%;
+            background-color: #1E1E1E;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 48px;
+            font-weight: 700;
+            margin: 0 0 40px 0;
+            line-height: 1.1;
+        }
+
+        .accent { color: #EF5350; }
+
+        .problem-list {
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+        }
+
+        .problem-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+        }
+
+        .icon-box {
+            width: 48px;
+            height: 48px;
+            background: rgba(239, 83, 80, 0.1);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #EF5350;
+            flex-shrink: 0;
+        }
+
+        .text-content h3 {
+            margin: 0 0 8px 0;
+            font-size: 20px;
+            font-weight: 600;
+            color: #E8E8E8;
+        }
+
+        .text-content p {
+            margin: 0;
+            font-size: 16px;
+            color: #B3B3B3;
+            line-height: 1.5;
+        }
+
+        /* Visual styling for right side */
+        .card-stack {
+            position: relative;
+            width: 400px;
+            height: 500px;
+        }
+
+        .alert-card {
+            position: absolute;
+            width: 100%;
+            background: #252525;
+            border: 1px solid #333;
+            border-left: 4px solid #EF5350;
+            border-radius: 12px;
+            padding: 24px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+            transition: transform 0.5s;
+        }
+
+        .stat-overlay {
+            position: absolute;
+            bottom: 60px;
+            right: 60px;
+            background: rgba(18, 18, 18, 0.9);
+            border: 1px solid #EF5350;
+            padding: 24px 32px;
+            border-radius: 16px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+        }
+
+        .stat-val {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 42px;
+            font-weight: 700;
+            color: #EF5350;
+            display: block;
+        }
+        
+        .stat-label {
+            font-size: 14px;
+            color: #B3B3B3;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="left-col">
+        <h2>Healthcare AI is <span class="accent">Broken</span></h2>
+        
+        <div class="problem-list">
+            <div class="problem-item">
+                <div class="icon-box"><i data-lucide="bell-off"></i></div>
+                <div class="text-content">
+                    <h3>Alert Fatigue</h3>
+                    <p>Providers ignore 99% of alarms because 50+ daily alerts lack context and urgency.</p>
+                </div>
+            </div>
+            
+            <div class="problem-item">
+                <div class="icon-box"><i data-lucide="message-square-warning"></i></div>
+                <div class="text-content">
+                    <h3>Chatbots Just Nag</h3>
+                    <p>Shallow, script-based interactions that annoy patients rather than guide them.</p>
+                </div>
+            </div>
+
+            <div class="problem-item">
+                <div class="icon-box"><i data-lucide="layout-dashboard"></i></div>
+                <div class="text-content">
+                    <h3>Zero-Context Dashboards</h3>
+                    <p>Data without insight leads to cognitive overload, not clinical decisions.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="right-col">
+        <div class="card-stack">
+            <!-- Stacked Alerts Visual -->
+            <div class="alert-card" style="top: 0; transform: scale(0.9) translateY(-40px); opacity: 0.6;">
+                <div style="font-weight:600; color:#E8E8E8; margin-bottom:8px;">⚠️ HR Alert: 110bpm</div>
+                <div style="font-size:14px; color:#888;">Ward 3, Bed 2</div>
+            </div>
+            <div class="alert-card" style="top: 0; transform: scale(0.95) translateY(-20px); opacity: 0.8;">
+                <div style="font-weight:600; color:#E8E8E8; margin-bottom:8px;">⚠️ SpO2 Alert: 92%</div>
+                <div style="font-size:14px; color:#888;">Ward 3, Bed 2</div>
+            </div>
+            <div class="alert-card" style="top: 0; transform: scale(1) translateY(0); opacity: 1;">
+                <div style="font-weight:600; color:#EF5350; margin-bottom:8px;">⚠️ BP Critical: 180/110</div>
+                <div style="font-size:14px; color:#B3B3B3; margin-bottom:12px;">Patient reporting dizziness. No prior context available in this view.</div>
+                <div style="display:flex; gap:8px;">
+                    <div style="padding:6px 12px; background:#333; border-radius:4px; font-size:12px;">Dismiss</div>
+                    <div style="padding:6px 12px; background:#333; border-radius:4px; font-size:12px;">Escalate</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="stat-overlay">
+            <span class="stat-val">$200B</span>
+            <span class="stat-label">Wasted Annually</span>
+        </div>
+    </div>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

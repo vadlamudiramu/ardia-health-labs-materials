@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1280, height=720, initial-scale=1.0">
+    <title>ArdiA Health Labs - Title</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            width: 1280px;
+            height: 720px;
+            background-color: #121212;
+            color: #E8E8E8;
+            font-family: 'Inter', sans-serif;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        
+        .bg-gradient {
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: radial-gradient(circle at 50% 30%, rgba(139, 175, 208, 0.1) 0%, transparent 60%);
+            z-index: 0;
+        }
+
+        .content {
+            z-index: 1;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .logo-box {
+            width: 80px;
+            height: 80px;
+            background: rgba(139, 175, 208, 0.1);
+            border: 1px solid #8BAFD0;
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #8BAFD0;
+            margin-bottom: 32px;
+            box-shadow: 0 0 30px rgba(139, 175, 208, 0.2);
+        }
+
+        h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 80px;
+            font-weight: 700;
+            margin: 0 0 16px 0;
+            letter-spacing: -2px;
+            background: linear-gradient(135deg, #E8E8E8 0%, #B3B3B3 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .subtitle {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 28px;
+            font-weight: 500;
+            color: #8BAFD0;
+            margin-bottom: 64px;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+        }
+
+        .founder-card {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+            padding: 24px 48px;
+            background: rgba(30, 30, 30, 0.5);
+            border: 1px solid #2D2D2D;
+            border-radius: 100px;
+            backdrop-filter: blur(10px);
+        }
+
+        .founder-info {
+            text-align: left;
+        }
+
+        .founder-name {
+            font-size: 20px;
+            font-weight: 600;
+            color: #E8E8E8;
+            margin-bottom: 4px;
+        }
+
+        .founder-title {
+            font-size: 14px;
+            color: #8BAFD0;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .contact-details {
+            display: flex;
+            gap: 24px;
+            border-left: 1px solid #2D2D2D;
+            padding-left: 24px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: #B3B3B3;
+            font-size: 14px;
+        }
+
+        .decorative-circle {
+            position: absolute;
+            border-radius: 50%;
+            border: 1px solid rgba(139, 175, 208, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-gradient"></div>
+    <!-- Decorative Circles -->
+    <div class="decorative-circle" style="width: 600px; height: 600px; top: 50%; left: 50%; transform: translate(-50%, -50%);"></div>
+    <div class="decorative-circle" style="width: 800px; height: 800px; top: 50%; left: 50%; transform: translate(-50%, -50%); opacity: 0.5;"></div>
+
+    <div class="content">
+        <div class="logo-box">
+            <i data-lucide="activity" size="40"></i>
+        </div>
+        
+        <h1>ArdiA Health Labs</h1>
+        <div class="subtitle">From Alerting to Solving</div>
+        
+        <div class="founder-card">
+            <div class="founder-info">
+                <div class="founder-name">Ram Vadlamudi</div>
+                <div class="founder-title">Founder</div>
+            </div>
+            <div class="contact-details">
+                <div class="contact-item">
+                    <i data-lucide="mail" size="16"></i>
+                    ram.vadlamudi@ardiahealthlabs.com
+                </div>
+                <div class="contact-item">
+                    <i data-lucide="phone" size="16"></i>
+                    +1 (469) 679-3334
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

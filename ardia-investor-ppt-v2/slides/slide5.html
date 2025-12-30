@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1280, height=720, initial-scale=1.0">
+    <title>ArdiA Health Labs - How It Works</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 64px;
+            width: 1280px;
+            height: 720px;
+            box-sizing: border-box;
+            background-color: #121212;
+            color: #E8E8E8;
+            font-family: 'Inter', sans-serif;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 42px;
+            font-weight: 700;
+            margin: 0 0 64px 0;
+            text-align: center;
+        }
+
+        .process-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            position: relative;
+            padding: 0 40px;
+        }
+
+        /* Connecting Line */
+        .process-line {
+            position: absolute;
+            top: 50px;
+            left: 60px;
+            right: 60px;
+            height: 2px;
+            background: #2D2D2D;
+            z-index: 0;
+        }
+
+        .step {
+            position: relative;
+            z-index: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 180px;
+            text-align: center;
+        }
+
+        .step-circle {
+            width: 100px;
+            height: 100px;
+            background: #1E1E1E;
+            border: 2px solid #2D2D2D;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 24px;
+            transition: all 0.3s ease;
+            color: #8BAFD0;
+        }
+
+        .step:hover .step-circle {
+            border-color: #8BAFD0;
+            box-shadow: 0 0 20px rgba(139, 175, 208, 0.3);
+            transform: translateY(-5px);
+            background: #252A30;
+        }
+
+        .step-title {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #E8E8E8;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .step-desc {
+            font-size: 14px;
+            color: #B3B3B3;
+            line-height: 1.4;
+        }
+
+        .arrow {
+            color: #2D2D2D;
+            margin-top: -80px; /* Adjust based on layout */
+        }
+    </style>
+</head>
+<body>
+    <h2>Closed-Loop Clinical Reasoning</h2>
+    
+    <div class="process-container">
+        <div class="process-line"></div>
+
+        <!-- Step 1 -->
+        <div class="step">
+            <div class="step-circle">
+                <i data-lucide="layers" size="40"></i>
+            </div>
+            <div class="step-title">1. Collect</div>
+            <div class="step-desc">Ingest multimodal data (EHR, IoMT, Voice)</div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="step">
+            <div class="step-circle">
+                <i data-lucide="brain-circuit" size="40"></i>
+            </div>
+            <div class="step-title">2. Analyze</div>
+            <div class="step-desc">Process via Clinical Reasoning Engine</div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="step">
+            <div class="step-circle">
+                <i data-lucide="trending-up" size="40"></i>
+            </div>
+            <div class="step-title">3. Predict</div>
+            <div class="step-desc">Identify risk & deterioration early</div>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="step">
+            <div class="step-circle">
+                <i data-lucide="heart-pulse" size="40"></i>
+            </div>
+            <div class="step-title">4. Intervene</div>
+            <div class="step-desc">Nudge patient or alert provider</div>
+        </div>
+
+        <!-- Step 5 -->
+        <div class="step">
+            <div class="step-circle">
+                <i data-lucide="refresh-cw" size="40"></i>
+            </div>
+            <div class="step-title">5. Learn</div>
+            <div class="step-desc">Outcome feedback refines model</div>
+        </div>
+    </div>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

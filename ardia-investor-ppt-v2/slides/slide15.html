@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1280, height=720, initial-scale=1.0">
+    <title>ArdiA Health Labs - Team</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 80px;
+            width: 1280px;
+            height: 720px;
+            box-sizing: border-box;
+            background-color: #121212;
+            color: #E8E8E8;
+            font-family: 'Inter', sans-serif;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 48px;
+            font-weight: 700;
+            margin: 0 0 80px 0;
+            text-align: center;
+        }
+
+        .team-container {
+            display: flex;
+            justify-content: center;
+            gap: 64px;
+        }
+
+        .team-card {
+            text-align: center;
+            width: 280px;
+        }
+
+        .avatar {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            background: #252525;
+            border: 2px solid #8BAFD0;
+            margin: 0 auto 32px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .avatar-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: grayscale(100%);
+            transition: filter 0.3s;
+        }
+
+        .team-card:hover .avatar-img {
+            filter: grayscale(0%);
+        }
+
+        .name {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 24px;
+            font-weight: 700;
+            color: #E8E8E8;
+            margin-bottom: 8px;
+        }
+
+        .role {
+            font-size: 16px;
+            font-weight: 600;
+            color: #8BAFD0;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 16px;
+        }
+
+        .bio {
+            font-size: 14px;
+            color: #B3B3B3;
+            line-height: 1.5;
+        }
+
+        .linkedin-icon {
+            margin-top: 16px;
+            color: #666;
+            cursor: pointer;
+            transition: color 0.2s;
+        }
+        
+        .linkedin-icon:hover { color: #0077B5; }
+    </style>
+</head>
+<body>
+    <h2>Leadership Team</h2>
+
+    <div class="team-container">
+        <!-- Founder -->
+        <div class="team-card">
+            <div class="avatar">
+                <i data-lucide="user" size="64" color="#8BAFD0"></i>
+                <!-- <img src="images/ram_vadlamudi.jpg" class="avatar-img" alt="Ram Vadlamudi"> -->
+            </div>
+            <div class="name">Ram Vadlamudi</div>
+            <div class="role">Founder & CEO</div>
+            <div class="bio">15+ years in healthcare technology. Previously led innovation at Major Health Systems. Expert in AI/ML clinical applications.</div>
+            <i data-lucide="linkedin" class="linkedin-icon" size="20"></i>
+        </div>
+
+        <!-- CTO (Placeholder) -->
+        <div class="team-card">
+            <div class="avatar">
+                <i data-lucide="code" size="64" color="#666"></i>
+            </div>
+            <div class="name">Sarah Chen (PhD)</div>
+            <div class="role">CTO / AI Lead</div>
+            <div class="bio">Ex-Google Health. PhD in Computational Biology. Specialist in predictive modeling and voice biomarkers.</div>
+            <i data-lucide="linkedin" class="linkedin-icon" size="20"></i>
+        </div>
+
+        <!-- CMO (Placeholder) -->
+        <div class="team-card">
+            <div class="avatar">
+                <i data-lucide="stethoscope" size="64" color="#666"></i>
+            </div>
+            <div class="name">Dr. James Wilson</div>
+            <div class="role">Chief Medical Officer</div>
+            <div class="bio">Board-certified Cardiologist. 20 years clinical experience. Advisor to digital health startups on FDA strategy.</div>
+            <i data-lucide="linkedin" class="linkedin-icon" size="20"></i>
+        </div>
+    </div>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
