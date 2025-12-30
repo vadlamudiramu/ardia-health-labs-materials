@@ -31,7 +31,7 @@ Healthcare AI spending hit $1.4B in 2025 (3x 2024). Chronic conditions represent
 I'd welcome 20 minutes to demonstrate our platform and discuss how Ardia Health extends a16z's healthcare AI portfolio.
 
 You can view our interactive business documents and architecture here:
-- **Live Demo:** https://vlajul3oeejn.space.minimax.io
+- **Live Demo:** https://e202ynuamoil.space.minimax.io
 - **GitHub Repository & Docs:** https://vadlamudiramu.github.io/ardia-health-labs-materials/
 
 I have also attached our pitch deck and a technical whitepaper for your convenience.

@@ -27,7 +27,7 @@ Ardia Health's Clinical Reasoning Engine is an AI-powered SaaS platform that:
 Given your portfolio includes DocQ and Acclinate, I believe you understand the complexity of healthcare AI adoption. I'd appreciate 20 minutes to demonstrate our platform and discuss partnership.
 
 You can view our interactive business documents and architecture here:
-- **Live Demo:** https://vlajul3oeejn.space.minimax.io
+- **Live Demo:** https://e202ynuamoil.space.minimax.io
 - **GitHub Repository & Docs:** https://vadlamudiramu.github.io/ardia-health-labs-materials/
 
 I have also attached our pitch deck and a technical whitepaper for your convenience.

@@ -36,7 +36,7 @@ Your investment philosophy—targeting easily adoptable technologies with near-t
 I'd welcome the opportunity to share our clinical dashboard demonstration and discuss how Ardia Health fits your portfolio thesis.
 
 You can view our interactive business documents and architecture here:
-- **Live Demo:** https://vlajul3oeejn.space.minimax.io
+- **Live Demo:** https://e202ynuamoil.space.minimax.io
 - **GitHub Repository & Docs:** https://vadlamudiramu.github.io/ardia-health-labs-materials/
 
 I have also attached our pitch deck and a technical whitepaper for your convenience.
@@ -76,7 +76,7 @@ ArdiA Health Labs' Clinical Reasoning Engine is an AI-powered SaaS platform that
 Given your portfolio includes DocQ and Acclinate, I believe you understand the complexity of healthcare AI adoption. I'd appreciate 20 minutes to demonstrate our platform and discuss partnership.
 
 You can view our interactive business documents and architecture here:
-- **Live Demo:** https://vlajul3oeejn.space.minimax.io
+- **Live Demo:** https://e202ynuamoil.space.minimax.io
 - **GitHub Repository & Docs:** https://vadlamudiramu.github.io/ardia-health-labs-materials/
 
 I have also attached our pitch deck and a technical whitepaper for your convenience.
@@ -113,7 +113,7 @@ As a Dallas-based company targeting DFW healthcare systems initially, we're posi
 I'd welcome the opportunity to present our platform and discuss a potential seed investment.
 
 You can view our interactive business documents and architecture here:
-- **Live Demo:** https://vlajul3oeejn.space.minimax.io
+- **Live Demo:** https://e202ynuamoil.space.minimax.io
 - **GitHub Repository & Docs:** https://vadlamudiramu.github.io/ardia-health-labs-materials/
 
 I have also attached our pitch deck and a technical whitepaper for your convenience.
@@ -149,7 +149,7 @@ Your DVC Advantage program—customer introductions, go-to-market playbooks, gro
 I'd appreciate the opportunity to discuss how Ardia Health fits your healthcare AI thesis and explore partnership.
 
 You can view our interactive business documents and architecture here:
-- **Live Demo:** https://vlajul3oeejn.space.minimax.io
+- **Live Demo:** https://e202ynuamoil.space.minimax.io
 - **GitHub Repository & Docs:** https://vadlamudiramu.github.io/ardia-health-labs-materials/
 
 I have also attached our pitch deck and a technical whitepaper for your convenience.
@@ -185,7 +185,7 @@ Your portfolio demonstrates willingness to invest in technically ambitious compa
 I'd welcome a conversation about how our vision aligns with your healthcare investment thesis.
 
 You can view our interactive business documents and architecture here:
-- **Live Demo:** https://vlajul3oeejn.space.minimax.io
+- **Live Demo:** https://e202ynuamoil.space.minimax.io
 - **GitHub Repository & Docs:** https://vadlamudiramu.github.io/ardia-health-labs-materials/
 
 I have also attached our pitch deck and a technical whitepaper for your convenience.
@@ -222,7 +222,7 @@ Healthcare AI spending tripled in 2025 to $1.4B. Independent clinics are activel
 I would be honored to present to your team and discuss how Ardia Health fits your growth-stage healthcare AI portfolio.
 
 You can view our interactive business documents and architecture here:
-- **Live Demo:** https://vlajul3oeejn.space.minimax.io
+- **Live Demo:** https://e202ynuamoil.space.minimax.io
 - **GitHub Repository & Docs:** https://vadlamudiramu.github.io/ardia-health-labs-materials/
 
 I have also attached our pitch deck and a technical whitepaper for your convenience.
@@ -262,7 +262,7 @@ Seed investment, clinical validation mentorship, and introductions to health sys
 We're excited about the opportunity to join your portfolio of 130+ companies and contribute to Health Wildcatters' mission of building DFW's healthcare innovation hub.
 
 You can view our interactive business documents and architecture here:
-- **Live Demo:** https://vlajul3oeejn.space.minimax.io
+- **Live Demo:** https://e202ynuamoil.space.minimax.io
 - **GitHub Repository & Docs:** https://vadlamudiramu.github.io/ardia-health-labs-materials/
 
 I have also attached our pitch deck and a technical whitepaper for your convenience.
@@ -306,7 +306,7 @@ As a DFW-based company, your investment supports local healthcare innovation whi
 I'd welcome the opportunity to present at your next meeting and discuss investment terms.
 
 You can view our interactive business documents and architecture here:
-- **Live Demo:** https://vlajul3oeejn.space.minimax.io
+- **Live Demo:** https://e202ynuamoil.space.minimax.io
 - **GitHub Repository & Docs:** https://vadlamudiramu.github.io/ardia-health-labs-materials/
 
 I have also attached our pitch deck and a technical whitepaper for your convenience.
@@ -352,7 +352,7 @@ Healthcare AI spending hit $1.4B in 2025 (3x 2024). Chronic conditions represent
 I'd welcome 20 minutes to demonstrate our platform and discuss how Ardia Health extends a16z's healthcare AI portfolio.
 
 You can view our interactive business documents and architecture here:
-- **Live Demo:** https://vlajul3oeejn.space.minimax.io
+- **Live Demo:** https://e202ynuamoil.space.minimax.io
 - **GitHub Repository & Docs:** https://vadlamudiramu.github.io/ardia-health-labs-materials/
 
 I have also attached our pitch deck and a technical whitepaper for your convenience.
@@ -389,7 +389,7 @@ Your operator-focused approach—healthcare leaders who get in the trenches with
 I'd appreciate the opportunity to discuss how Ardia Health fits your thesis of informed, connected health consumers.
 
 You can view our interactive business documents and architecture here:
-- **Live Demo:** https://vlajul3oeejn.space.minimax.io
+- **Live Demo:** https://e202ynuamoil.space.minimax.io
 - **GitHub Repository & Docs:** https://vadlamudiramu.github.io/ardia-health-labs-materials/
 
 I have also attached our pitch deck and a technical whitepaper for your convenience.
@@ -432,7 +432,7 @@ Rock Health's advisory practice and corporate connections would be invaluable as
 I'd welcome the opportunity to present to your team.
 
 You can view our interactive business documents and architecture here:
-- **Live Demo:** https://vlajul3oeejn.space.minimax.io
+- **Live Demo:** https://e202ynuamoil.space.minimax.io
 - **GitHub Repository & Docs:** https://vadlamudiramu.github.io/ardia-health-labs-materials/
 
 I have also attached our pitch deck and a technical whitepaper for your convenience.
@@ -473,7 +473,7 @@ Seed round to fund pilot deployments, clinical validation, and initial sales tea
 I'd appreciate the opportunity to present our platform and discuss partnership.
 
 You can view our interactive business documents and architecture here:
-- **Live Demo:** https://vlajul3oeejn.space.minimax.io
+- **Live Demo:** https://e202ynuamoil.space.minimax.io
 - **GitHub Repository & Docs:** https://vadlamudiramu.github.io/ardia-health-labs-materials/
 
 I have also attached our pitch deck and a technical whitepaper for your convenience.
@@ -516,7 +516,7 @@ Your transformational approach and stage flexibility (seed to pre-IPO) make you 
 I'd welcome the opportunity to present our vision and discuss partnership.
 
 You can view our interactive business documents and architecture here:
-- **Live Demo:** https://vlajul3oeejn.space.minimax.io
+- **Live Demo:** https://e202ynuamoil.space.minimax.io
 - **GitHub Repository & Docs:** https://vadlamudiramu.github.io/ardia-health-labs-materials/
 
 I have also attached our pitch deck and a technical whitepaper for your convenience.
@@ -554,7 +554,7 @@ Your portfolio includes Alife (AI-assisted fertility) and Summer Health (pediatr
 I'd welcome a conversation about how Ardia Health fits your investment thesis.
 
 You can view our interactive business documents and architecture here:
-- **Live Demo:** https://vlajul3oeejn.space.minimax.io
+- **Live Demo:** https://e202ynuamoil.space.minimax.io
 - **GitHub Repository & Docs:** https://vadlamudiramu.github.io/ardia-health-labs-materials/
 
 I have also attached our pitch deck and a technical whitepaper for your convenience.
@@ -593,7 +593,7 @@ Susa's exceptional capabilities in helping seed-stage founders raise Series A fu
 I'd appreciate the opportunity to discuss how Ardia Health fits your investment thesis.
 
 You can view our interactive business documents and architecture here:
-- **Live Demo:** https://vlajul3oeejn.space.minimax.io
+- **Live Demo:** https://e202ynuamoil.space.minimax.io
 - **GitHub Repository & Docs:** https://vadlamudiramu.github.io/ardia-health-labs-materials/
 
 I have also attached our pitch deck and a technical whitepaper for your convenience.
@@ -639,7 +639,7 @@ Your portfolio includes Season Health and Concert Health—tech-enabled solution
 I'd welcome the opportunity to pitch and discuss investment.
 
 You can view our interactive business documents and architecture here:
-- **Live Demo:** https://vlajul3oeejn.space.minimax.io
+- **Live Demo:** https://e202ynuamoil.space.minimax.io
 - **GitHub Repository & Docs:** https://vadlamudiramu.github.io/ardia-health-labs-materials/
 
 I have also attached our pitch deck and a technical whitepaper for your convenience.
@@ -684,7 +684,7 @@ Unlike competitors focused on acute care imaging or single-condition application
 I'd appreciate the opportunity to discuss how Ardia Health fits your investment thesis.
 
 You can view our interactive business documents and architecture here:
-- **Live Demo:** https://vlajul3oeejn.space.minimax.io
+- **Live Demo:** https://e202ynuamoil.space.minimax.io
 - **GitHub Repository & Docs:** https://vadlamudiramu.github.io/ardia-health-labs-materials/
 
 I have also attached our pitch deck and a technical whitepaper for your convenience.
@@ -722,7 +722,7 @@ Chronic conditions = 90% of healthcare spending. Enterprise health systems are s
 I'd welcome the opportunity to present our platform and discuss partnership.
 
 You can view our interactive business documents and architecture here:
-- **Live Demo:** https://vlajul3oeejn.space.minimax.io
+- **Live Demo:** https://e202ynuamoil.space.minimax.io
 - **GitHub Repository & Docs:** https://vadlamudiramu.github.io/ardia-health-labs-materials/
 
 I have also attached our pitch deck and a technical whitepaper for your convenience.
@@ -769,7 +769,7 @@ We've built an AI system that provides explainable clinical intelligence for chr
 We're excited about the opportunity to join your program and leverage Cedars-Sinai's world-class clinical expertise.
 
 You can view our interactive business documents and architecture here:
-- **Live Demo:** https://vlajul3oeejn.space.minimax.io
+- **Live Demo:** https://e202ynuamoil.space.minimax.io
 - **GitHub Repository & Docs:** https://vadlamudiramu.github.io/ardia-health-labs-materials/
 
 I have also attached our pitch deck and a technical whitepaper for your convenience.
@@ -819,7 +819,7 @@ We've built an AI Clinical Reasoning Engine that:
 We're excited about the opportunity to compete for the $500K prize and join your accelerator community.
 
 You can view our interactive business documents and architecture here:
-- **Live Demo:** https://vlajul3oeejn.space.minimax.io
+- **Live Demo:** https://e202ynuamoil.space.minimax.io
 - **GitHub Repository & Docs:** https://vadlamudiramu.github.io/ardia-health-labs-materials/
 
 I have also attached our pitch deck and a technical whitepaper for your convenience.

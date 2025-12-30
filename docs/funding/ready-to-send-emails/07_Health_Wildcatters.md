@@ -29,7 +29,7 @@ Seed investment, clinical validation mentorship, and introductions to health sys
 We're excited about the opportunity to join your portfolio of 130+ companies and contribute to Health Wildcatters' mission of building DFW's healthcare innovation hub.
 
 You can view our interactive business documents and architecture here:
-- **Live Demo:** https://vlajul3oeejn.space.minimax.io
+- **Live Demo:** https://e202ynuamoil.space.minimax.io
 - **GitHub Repository & Docs:** https://vadlamudiramu.github.io/ardia-health-labs-materials/
 
 I have also attached our pitch deck and a technical whitepaper for your convenience.

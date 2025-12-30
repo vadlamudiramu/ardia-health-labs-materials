@@ -25,7 +25,7 @@ Your investment philosophy—targeting easily adoptable technologies with near-t
 I'd welcome the opportunity to share our clinical dashboard demonstration and discuss how Ardia Health fits your portfolio thesis.
 
 You can view our interactive business documents and architecture here:
-- **Live Demo:** https://vlajul3oeejn.space.minimax.io
+- **Live Demo:** https://e202ynuamoil.space.minimax.io
 - **GitHub Repository & Docs:** https://vadlamudiramu.github.io/ardia-health-labs-materials/
 
 I have also attached our pitch deck and a technical whitepaper for your convenience.

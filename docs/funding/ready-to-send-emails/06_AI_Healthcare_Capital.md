@@ -26,7 +26,7 @@ Healthcare AI spending tripled in 2025 to $1.4B. Independent clinics are activel
 I would be honored to present to your team and discuss how Ardia Health fits your growth-stage healthcare AI portfolio.
 
 You can view our interactive business documents and architecture here:
-- **Live Demo:** https://vlajul3oeejn.space.minimax.io
+- **Live Demo:** https://e202ynuamoil.space.minimax.io
 - **GitHub Repository & Docs:** https://vadlamudiramu.github.io/ardia-health-labs-materials/
 
 I have also attached our pitch deck and a technical whitepaper for your convenience.

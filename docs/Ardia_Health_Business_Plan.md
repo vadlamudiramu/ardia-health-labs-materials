@@ -404,7 +404,7 @@ Founder & CEO, Ardia Health
 📱 +1 (469) 679-3334  
 🌐 ardiahealthlabs.com
 
-**Live Demo**: https://vlajul3oeejn.space.minimax.io  
+**Live Demo**: https://e202ynuamoil.space.minimax.io  
 **Materials**: https://vadlamudiramu.github.io/ardia-health-labs-materials/
 
 ---
