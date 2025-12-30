@@ -1,0 +1,23 @@
+📄 Extracted from page: GoDaddy Security - Access Denied
+URL: https://www.northtexasallergy.com/
+
+Extracted content:
+```json
+{
+    "title": "GoDaddy Security - Access Denied",
+    "url": "https://www.northtexasallergy.com/",
+    "summary": "The provided page displays an \"Access Denied\" message from GoDaddy Website Firewall, indicating that the user's IP address is blacklisted and preventing access to the intended content of www.northtexasallergy.com. Consequently, no information about the North Texas Allergy practice, including its name, address, phone number, physician names, specialties, services, practice type, or ownership details, could be extracted from this page. The page primarily offers instructions for the site owner to resolve the access block.",
+    "key_points": [
+        "The page content is an \"Access Denied\" message from GoDaddy Website Firewall.",
+        "Access was blocked because the user's IP address (47.253.4.207) is listed in a blacklist.",
+        "No information pertaining to the North Texas Allergy practice could be extracted from this page.",
+        "The page provides block details including URL, browser, block ID, block reason, time, and server ID.",
+        "Instructions are given for the site owner to whitelist their IP or open a support ticket if they believe the block is an error."
+    ],
+    "relevant_links": [
+        "https://supportx.sucuri.net/",
+        "https://www.godaddy.com/Agreements/Privacy.aspx"
+    ],
+    "file_name": "northtexasallergy_access_denied.json"
+}
+```

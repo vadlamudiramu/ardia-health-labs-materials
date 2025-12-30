@@ -1,0 +1,170 @@
+{
+  "_source_id": 23,
+  "sources": {
+    "Payer Outreach Strategy for Clinical Reasoning Engine": {
+      "https://www.forbes.com/sites/sachinjain/2025/10/21/ai-adoption-in-healthcare-is-surging-what-a-new-report-reveals/": {
+        "id": 1,
+        "publisher": "Forbes",
+        "url": "https://www.forbes.com/sites/sachinjain/2025/10/21/ai-adoption-in-healthcare-is-surging-what-a-new-report-reveals/",
+        "title": "AI Adoption In Healthcare Is Surging: What A New Report Reveals",
+        "info": "Key decision-makers in healthcare AI adoption: Technology decision-makers, senior insurance/benefits leaders, pharmaceutical executives. Payer procurement cycles average 11.3 months. AI spending reached $1.4 billion in 2025."
+      },
+      "https://menlovc.com/perspective/2025-the-state-of-ai-in-healthcare/": {
+        "id": 2,
+        "publisher": "Menlo Ventures",
+        "url": "https://menlovc.com/perspective/2025-the-state-of-ai-in-healthcare/",
+        "title": "2025: The State of AI in Healthcare",
+        "info": "Comprehensive AI adoption trends: 22% of healthcare organizations now use domain-specific AI tools. Payers at 14% adoption rate. Providers account for 95% of AI spend."
+      },
+      "https://www.clearstep.health/blog/ai-in-action-reducing-hospitalizations-and-readmissions": {
+        "id": 3,
+        "publisher": "Clearstep Health",
+        "url": "https://www.clearstep.health/blog/ai-in-action-reducing-hospitalizations-and-readmissions",
+        "title": "How AI reduces costly hospitalizations and readmissions",
+        "info": "AI reduces hospitalizations through predictive analytics, care coordination, and self-triage. Specific case: 200 prevented readmissions = $5 million savings. 95% accuracy in care routing."
+      },
+      "https://www.zs.com/insights/insurance-companies-meet-startups-five-keys-to-a-successful-part": {
+        "id": 4,
+        "publisher": "ZS Associates",
+        "url": "https://www.zs.com/insights/insurance-companies-meet-startups-five-keys-to-a-successful-part",
+        "title": "Insurance partnerships with startups: 5 keys to success",
+        "info": "Five keys to successful insurance-startup partnerships: establish investment objectives, set clear KPIs, seek mutual value, think bigger picture, consider operational fit."
+      },
+      "https://www.stretchdollar.com/city-guide/best-health-insurance-dallas-texas": {
+        "id": 5,
+        "publisher": "StretchDollar",
+        "url": "https://www.stretchdollar.com/city-guide/best-health-insurance-dallas-texas",
+        "title": "Best Health Insurance in 2025 for Dallas, Texas",
+        "info": "Major carriers in DFW: Aetna CVS Health, Ambetter, Blue Cross Blue Shield Texas, Cigna Healthcare, Molina, Oscar, Baylor Scott & White, UnitedHealthcare."
+      },
+      "https://www.definitivehc.com/resources/healthcare-insights/top-healthcare-payors-by-incurred-claims": {
+        "id": 6,
+        "publisher": "Definitive Healthcare",
+        "url": "https://www.definitivehc.com/resources/healthcare-insights/top-healthcare-payors-by-incurred-claims",
+        "title": "Largest Health Insurance Companies in the U.S. by Claims",
+        "info": "Top 20 US payers by incurred claims: Kaiser Permanente ($50.8B), Elevance Health ($35.1B), UnitedHealthcare ($34B), HCSC ($30.9B). Market share and covered lives data for competitive positioning."
+      },
+      "https://www.dmagazine.com/healthcare-business/2017/10/dfw-health-insurance-market-more-competitive-than-many/": {
+        "id": 7,
+        "publisher": "D Magazine",
+        "url": "https://www.dmagazine.com/healthcare-business/2017/10/dfw-health-insurance-market-more-competitive-than-many/",
+        "title": "DFW Health Insurance Market More Competitive Than Many",
+        "info": "DFW market more competitive than many US metros. Top two players (~30% each): Blue Cross Blue Shield and UnitedHealth Group. HMO: Aetna 49% Dallas, 71% Fort Worth."
+      },
+      "https://www.ajmc.com/view/reducing-readmissions-in-the-safety-net-through-ai-and-automation": {
+        "id": 8,
+        "publisher": "American Journal of Managed Care",
+        "url": "https://www.ajmc.com/view/reducing-readmissions-in-the-safety-net-through-ai-and-automation",
+        "title": "Reducing Readmissions in the Safety Net Through AI and Automation",
+        "info": "AI/automation reduced heart failure readmissions from 27.9% to 23.9%. ROI over $7 to $1. $7.2M retained in at-risk funding. $1M development cost."
+      },
+      "https://www.cgi.com/us/en-us/blog/health/tech-transformation-healthcare-payers-fundamentals": {
+        "id": 9,
+        "publisher": "CGI",
+        "url": "https://www.cgi.com/us/en-us/blog/health/tech-transformation-healthcare-payers-fundamentals",
+        "title": "Tech transformation in healthcare payers: From FOMO to fundamentals",
+        "info": "Payer tech transformation journey 2014-2024: AI adoption challenges, value-focused execution shift. Key learnings for healthcare AI vendors."
+      },
+      "https://www.uipath.com/resources/automation-case-studies/health-insurance-company-uses-ai-center": {
+        "id": 10,
+        "publisher": "UiPath",
+        "url": "https://www.uipath.com/resources/automation-case-studies/health-insurance-company-uses-ai-center",
+        "title": "Large Health Insurance Company Uses AI Center",
+        "info": "UiPath case study: Health insurer achieved $11M annual savings using AI Document Understanding. Reduced high-risk pregnancy identification from 4-5 weeks to minutes."
+      }
+    },
+    "Healthcare AI Investors and Venture Capital Firms Research": {
+      "https://shdpartners.com/": {
+        "id": 11,
+        "publisher": "SHD Partners",
+        "url": "https://shdpartners.com/",
+        "title": "Scientific Health Development (SHD) - Dallas-based Medtech VC",
+        "info": "Comprehensive information about SHD Partners including fund details, partners (Philip Romano, Stuart Fitts, Andrew Offer), investment focus on early-stage medtech, and Dallas location"
+      },
+      "https://www.healthwildcatters.com/": {
+        "id": 12,
+        "publisher": "Health Wildcatters",
+        "url": "https://www.healthwildcatters.com/",
+        "title": "Health Wildcatters - Dallas Healthcare Accelerator",
+        "info": "Health Wildcatters accelerator details: 10-week program, 8-12 startups annually, over 130 portfolio companies, $350M+ raised, Dallas-based healthcare accelerator"
+      },
+      "https://www.openvc.app/investor-lists/venture-capital-firms-investors-dallas": {
+        "id": 13,
+        "publisher": "OpenVC",
+        "url": "https://www.openvc.app/investor-lists/venture-capital-firms-investors-dallas",
+        "title": "Top Venture Capital Firms and Investors in Dallas",
+        "info": "Complete list of Dallas VCs including Sentiero Ventures, Green Park & Golf, S3 Ventures, with investment focus areas and contact information"
+      },
+      "https://aihealthcarecapital.com/": {
+        "id": 14,
+        "publisher": "AI Healthcare Capital",
+        "url": "https://aihealthcarecapital.com/",
+        "title": "AI Healthcare Capital - Healthcare Technology PE Fund",
+        "info": "AI Healthcare Capital details: Growth-stage PE fund focused on Healthcare Technology AI, Managing Partner Ewelina Wołoszyn, The Woodlands Texas"
+      },
+      "https://medtechfounder.com/best-digital-health-investors/": {
+        "id": 15,
+        "publisher": "MedTech Founder",
+        "url": "https://medtechfounder.com/best-digital-health-investors/",
+        "title": "16 Best Digital Health Investors in 2025",
+        "info": "Top 16 digital health investors including a16z, 7wireVentures, Rock Health, Healthy Ventures with check sizes and contact info"
+      },
+      "https://www.rho.co/blog/vcs-in-healthcare": {
+        "id": 16,
+        "publisher": "Rho",
+        "url": "https://www.rho.co/blog/vcs-in-healthcare",
+        "title": "15 Best Healthcare VC Firms: The 2025 Investor List",
+        "info": "15 top healthcare VC firms including Deerfield Management, Silversmith Capital, NEA, Vivo Capital with investment stages and portfolio companies"
+      },
+      "https://dhvp.io/": {
+        "id": 17,
+        "publisher": "Digital Health Venture Partners",
+        "url": "https://dhvp.io/",
+        "title": "Digital Health Venture Partners - Seed-stage Healthcare VC",
+        "info": "Digital Health Venture Partners details: Healthcare software and AI-enabled services investor, partners Arvin Grover, Steve Yaskin, portfolio companies"
+      },
+      "https://healthtechcapital.com/": {
+        "id": 18,
+        "publisher": "HealthTech Capital",
+        "url": "https://healthtechcapital.com/",
+        "title": "HealthTech Capital - Early-stage HealthTech Investor",
+        "info": "HealthTech Capital details: Early-stage HealthTech investor with membership model, corporate members, and $1B+ follow-on capital"
+      },
+      "https://medtechfounder.com/best-digital-health-accelerators/": {
+        "id": 19,
+        "publisher": "MedTech Founder",
+        "url": "https://medtechfounder.com/best-digital-health-accelerators/",
+        "title": "7 Best Digital Health Accelerators in 2025",
+        "info": "7 leading digital health accelerators including NSF, PharmStars, Medtech Innovator, Rock Health, Startup+Health with investment amounts"
+      },
+      "https://medtechcolor.org/pitch_competition": {
+        "id": 20,
+        "publisher": "MedTech Color",
+        "url": "https://medtechcolor.org/pitch_competition",
+        "title": "MedTech Color Pitch Competition",
+        "info": "MedTech Color Pitch Competition: $75K first prize, eligibility, timeline, partnership with MedTech Innovator for diverse founders"
+      },
+      "https://www.medica-tradefair.com/en/Program/Forums/MEDICA_INNOVATION_FORUM/MEDICA_START-UP_COMPETITION_1": {
+        "id": 21,
+        "publisher": "MEDICA",
+        "url": "https://www.medica-tradefair.com/en/Program/Forums/MEDICA_INNOVATION_FORUM/MEDICA_START-UP_COMPETITION_1",
+        "title": "MEDICA START-UP COMPETITION",
+        "info": "MEDICA START-UP COMPETITION 2025: Digital health innovation competition, Top 15 recognition, AI/healthcare focus, contact Dr. Sonja Sulzmaier"
+      },
+      "https://healthtechchallengers.com/": {
+        "id": 22,
+        "publisher": "Health Tech Challengers",
+        "url": "https://healthtechchallengers.com/",
+        "title": "Health Tech Challengers - Healthcare Pitch Competition",
+        "info": "Health Tech Challengers 2025: 8 tracks, $15K+ prizes, September deadline, 80 finalists, focus on AI healthcare, connected care, TechBio"
+      },
+      "https://csaccelerator.com/program": {
+        "id": 23,
+        "publisher": "Cedars-Sinai Accelerator",
+        "url": "https://csaccelerator.com/program",
+        "title": "Cedars-Sinai Accelerator Program",
+        "info": "Cedars-Sinai Accelerator: 3-month LA program, $100K investment, 300+ mentors, focus on digital health, medical devices, biotech"
+      }
+    }
+  }
+}
