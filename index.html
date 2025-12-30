@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ardia Health - Business Materials</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            min-height: 100vh;
+            color: #e2e8f0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        .logo {
+            font-size: 3rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #14b8a6, #0ea5e9);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 16px;
+        }
+        .tagline {
+            font-size: 1.25rem;
+            color: #94a3b8;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 24px;
+            margin-bottom: 40px;
+        }
+        .card {
+            background: rgba(30, 41, 59, 0.8);
+            border: 1px solid rgba(148, 163, 184, 0.1);
+            border-radius: 16px;
+            padding: 32px;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+        .card:hover {
+            transform: translateY(-4px);
+            border-color: #14b8a6;
+            box-shadow: 0 20px 40px rgba(20, 184, 166, 0.15);
+        }
+        .card-icon {
+            width: 48px;
+            height: 48px;
+            background: linear-gradient(135deg, #14b8a6, #0ea5e9);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        .card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 12px;
+            color: #f1f5f9;
+        }
+        .card p {
+            color: #94a3b8;
+            line-height: 1.6;
+        }
+        .badge {
+            display: inline-block;
+            padding: 4px 12px;
+            background: rgba(20, 184, 166, 0.2);
+            color: #14b8a6;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            margin-top: 16px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .section-title {
+            font-size: 1.5rem;
+            margin-bottom: 24px;
+            color: #f1f5f9;
+        }
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: #64748b;
+            border-top: 1px solid rgba(148, 163, 184, 0.1);
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">Ardia Health</div>
+            <p class="tagline">Clinical Intelligence Engine - From Alerting to Solving</p>
+        </header>
+
+        <h2 class="section-title">Business Development Suite</h2>
+        <div class="grid">
+            <a href="docs/investors-directory.html" class="card">
+                <div class="card-icon">$</div>
+                <h3>Investors Directory</h3>
+                <p>Comprehensive directory of healthcare AI investors, venture capital firms, angel networks, and accelerators in DFW and nationally.</p>
+                <span class="badge">50+ Investors</span>
+            </a>
+
+            <a href="docs/business-development-guide.html" class="card">
+                <div class="card-icon">&#9733;</div>
+                <h3>Business Development Guide</h3>
+                <p>Strategic guide covering clinic outreach, investor engagement, and insurance payer strategy with implementation roadmap.</p>
+                <span class="badge">365-Day Plan</span>
+            </a>
+
+            <a href="docs/clinic-pitch-materials.html" class="card">
+                <div class="card-icon">&#9993;</div>
+                <h3>Clinic Pitch Materials</h3>
+                <p>Complete outreach toolkit with email templates, cold call scripts, objection handling, and competitive positioning.</p>
+                <span class="badge">Ready to Use</span>
+            </a>
+        </div>
+
+        <h2 class="section-title">Interactive Demos</h2>
+        <div class="grid">
+            <a href="pilot-dashboard/index.html" class="card">
+                <div class="card-icon">&#9878;</div>
+                <h3>Pilot Program Dashboard</h3>
+                <p>Live dashboard showcasing pilot program results for patients, providers, and insurance companies.</p>
+                <span class="badge">Dashboard</span>
+            </a>
+
+            <a href="investor-presentation/presentation.html" class="card">
+                <div class="card-icon">&#9654;</div>
+                <h3>Investor Presentation</h3>
+                <p>Professional slide deck for investor meetings covering market opportunity, technology, and growth strategy.</p>
+                <span class="badge">17 Slides</span>
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Ardia Health. All rights reserved.</p>
+    </footer>
+</body>
+</html>
